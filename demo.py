@@ -104,18 +104,33 @@ class main:
 		del doc[0]
 		random.shuffle(doc)
 
-		trainData = []
-		testData = []
+		featuresets = []
+		finallabels = []
 
-		
+		for x in range(len(doc)):
+			featuresets.append([])
+			for y in range(1,len(doc[x])):
+				if y != len(doc[x])-1:
+					featuresets[x].append(doc[x][y])
+				else:
+					finallabels.append(doc[x][y])
 
+		print featuresets
+		print finallabels
+
+		out = open("Result.txt", "w")
+		out1 = open("Result1.txt", "w")
+
+		out.write(str(featuresets))
+		out1.write(str(finallabels))
 
 m = main()
 m.getUrl()
 m.updateDataSet()
 m.makeDocument()
+m.trainTestData()
 
-print len(m.documents)
-print len(m.labels)
-print m.genreid
-print m.documents
+#print len(m.documents)
+#print len(m.labels)
+#print m.genreid
+#print m.documents
