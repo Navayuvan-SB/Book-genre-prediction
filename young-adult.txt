@@ -83,8 +83,8 @@ Popular Young Adult Books
 <script>
   //<![CDATA[
     googletag.cmd.push(function() {
-      googletag.pubads().setTargeting("sid", "osid.fa6a61b427785087f188eef115208d97");
-    googletag.pubads().setTargeting("grsession", "osid.fa6a61b427785087f188eef115208d97");
+      googletag.pubads().setTargeting("sid", "osid.7a17d1669c75ac3b614051996fa3b2b0");
+    googletag.pubads().setTargeting("grsession", "osid.7a17d1669c75ac3b614051996fa3b2b0");
     googletag.pubads().setTargeting("surface", "desktop");
     googletag.pubads().setTargeting("signedin", "false");
     googletag.pubads().setTargeting("gr_author", "false");
@@ -134,9 +134,9 @@ Popular Young Adult Books
 
 
   <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="OjRi0wIMGEJ/4uYTqatbCMBzNHMQptS7DpZlzKehgBS8KkfufXzBf9UHw7ljtFD4Rl0Sz3pXtv4fZQyN5WYPqQ==" />
+<meta name="csrf-token" content="ptM8j24tC6x4ewBpt+FfX4xafn5HS9qQ+66olrOriQlA4pGtQFFrY7e7Xy2VKtT5tgyPa46D/8o1RIiLAECkXg==" />
 
-  <meta name="request-id" content="4A94SD0C1DN3K3Q69J62" />
+  <meta name="request-id" content="SMHFAG6RBF1NE1MMQYRR" />
 
       <link rel="canonical" href="https://www.goodreads.com/shelf/show/young-adult" />
 
@@ -226,9 +226,9 @@ Popular Young Adult Books
 <body class="">
 <script>
 //<![CDATA[
-ReactStores.GoogleAdsStore.initializeWith({"targeting":{"sid":"osid.fa6a61b427785087f188eef115208d97","grsession":"osid.fa6a61b427785087f188eef115208d97","surface":"desktop","signedin":"false","gr_author":"false","author":[],"shelf":["youngadult"],"gtargeting":"9","resource":"genre_youngadult"},"ads":{"div-gpt-ad-goodr-genres-top-970x66":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.top.970x66","dimensions":["970x66","970x90","970x250"],"adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false},"div-gpt-ad-goodr-genres-top-300x250":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.top.300x250","dimensions":"300x250","adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false},"div-gpt-ad-goodr-genres-bottom-300x250":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.bottom.300x250","dimensions":"300x250","adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false}},"nativeAds":{},"polls":{}});
+ReactStores.GoogleAdsStore.initializeWith({"targeting":{"sid":"osid.7a17d1669c75ac3b614051996fa3b2b0","grsession":"osid.7a17d1669c75ac3b614051996fa3b2b0","surface":"desktop","signedin":"false","gr_author":"false","author":[],"shelf":["youngadult"],"gtargeting":"9","resource":"genre_youngadult"},"ads":{"div-gpt-ad-goodr-genres-top-970x66":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.top.970x66","dimensions":["970x66","970x90","970x250"],"adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false},"div-gpt-ad-goodr-genres-top-300x250":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.top.300x250","dimensions":"300x250","adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false},"div-gpt-ad-goodr-genres-bottom-300x250":{"isNativeAd":false,"hasCreative":false,"hasRequestedCreative":false,"path":"/4215/goodr.genres.bottom.300x250","dimensions":"300x250","adSizeMapping":null,"adDeviceType":"desktop","pmetImpressionTrackUrl":"https://www.goodreads.com/dfp/impression","pmetClickTrackUrl":"https://www.goodreads.com/dfp/click","creativeSelector":"div#google_image_div","isLazyLoaded":false}},"nativeAds":{},"polls":{}});
 //]]>
-</script><div data-react-class="ReactComponents.StoresInitializer" data-react-props="{}"><noscript data-reactid=".3ktsaa38jk" data-react-checksum="-1481699071"></noscript></div>
+</script><div data-react-class="ReactComponents.StoresInitializer" data-react-props="{}"><noscript data-reactid=".26ip7xzxxq8" data-react-checksum="-1172434563"></noscript></div>
 
 <div class="content">
   
@@ -315,7 +315,7 @@ ReactStores.GoogleAdsStore.initializeWith({"targeting":{"sid":"osid.fa6a61b42778
     else {
       var action = checked ? 'remove' : ''
       element.checked = !element.checked
-      new Ajax.Request('/shelf/add_to_shelf', {asynchronous:true, evalScripts:true, onSuccess:function(request){shelfSubmitted(request, book_id, checkbox_id, element_id, unique_id, shelf_name)}, parameters:'book_id=' + book_id + '&name=' + shelf_name + '&a=' + action + '&authenticity_token=' + encodeURIComponent('co0KKGJ13PVlcK08EwYaePfIwLrFuxU5TFNRnj9v9N30ky8VHQUFyM+ViJbZGRGIcebmBq9Kd3xdoDjffah7YA==')})
+      new Ajax.Request('/shelf/add_to_shelf', {asynchronous:true, evalScripts:true, onSuccess:function(request){shelfSubmitted(request, book_id, checkbox_id, element_id, unique_id, shelf_name)}, parameters:'book_id=' + book_id + '&name=' + shelf_name + '&a=' + action + '&authenticity_token=' + encodeURIComponent('b5dkhlVpLGAiirhkDEMxsFgDwKle05Okv9/vz7vxbP2JpsmkexVMr+1K5yAuiLoWYlUxvJcbtv5xNc/SCBpBqg==')})
     }
   }
 
@@ -325,7 +325,7 @@ ReactStores.GoogleAdsStore.initializeWith({"targeting":{"sid":"osid.fa6a61b42778
   }
 
   function refreshGroupBox(group_id, book_id) {
-    new Ajax.Updater('addGroupBooks' + book_id + '', '/group/add_book_box', {asynchronous:true, evalScripts:true, onSuccess:function(request){refreshGroupBoxComplete(request, book_id);}, parameters:'id=' + group_id + '&book_id=' + book_id + '&refresh=true' + '&authenticity_token=' + encodeURIComponent('GdXM2/Cia4CeIqucDfqcAuHis6aMj696TzgasOccT2Wfy+nmj9KyvTTHjjbH5ZfyZ8yVGuZ+zT9ey3PxpdvA2A==')})
+    new Ajax.Updater('addGroupBooks' + book_id + '', '/group/add_book_box', {asynchronous:true, evalScripts:true, onSuccess:function(request){refreshGroupBoxComplete(request, book_id);}, parameters:'id=' + group_id + '&book_id=' + book_id + '&refresh=true' + '&authenticity_token=' + encodeURIComponent('4O1lSLINsFvBw7jCNFlqCVJipT/3wemo4+uW/EnaWEgG3MhqnHHQlA4D54YWkuGvaDRUKj4JzPItAbbh+jF1Hw==')})
   }
 //]]>
 </script>
@@ -404,7 +404,7 @@ Showing 1-50 of 1,250
               <br />
               <span class="greyText smallText">
                 avg rating 4.33 —
-                5,581,215 ratings  —
+                5,581,331 ratings  —
                 published 2008
               </span>
             </div>
@@ -412,7 +412,7 @@ Showing 1-50 of 1,250
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='1_book_2767052'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ECelVcdImelnUc3t8I2BcY0bhOCToLsNQtekmCrqjMGWOYBouDhA1M206Ec6koqBCzWiXPlR2UhTJM3ZaC0DfA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8ukFwhZlzx1OjSwkiilv6EtXRKSs/QwFQzLgnrgE6ogU2KjgOBmv0oFNc2Co4uROcQG1sWU1KV+N2MCDC+/H3w==" />
 <input type="hidden" name="book_id" id="book_id" value="2767052" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="1_book_2767052" />
@@ -431,7 +431,7 @@ Showing 1-50 of 1,250
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XwyL0IuAAMKO7dio/0m3kBOE1aUqb96fr2kXZRR5YfrZEq7t9PDZ/yQI/QI1VrxglarzGUCevNq+mn4kVr7uRw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fSrDLNswvu9WLMS9GU9ZoPlpWxG3HLfT2TlBzfBkoeubG24O9UzeIJnsm/k7hNIGwz+qBH7UkokX02HQQ4+MvA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="1_book_2767052" />
 <input type="hidden" name="book_id" id="book_id" value="2767052" />
 <input type="hidden" name="a" id="a" />
@@ -499,7 +499,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.29 —
-                2,145,954 ratings  —
+                2,145,974 ratings  —
                 published 2009
               </span>
             </div>
@@ -507,7 +507,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='2_book_6148028'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="av31cisEbk+Vr2DoiPqKWvz+B3uuEcNMSQ43OCOGav7s49BPVHS3cj9KRUJC5YGqetAhx8TgoQlY/V55YUHlQw==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y47ZrHyZxh0VMqYGHLUvgu4rVsj+B5n0fzPyU2wzM5gtv3SOUuWm0try+UI+fqQk1H2n3TfPvK6x2dJO39gezw==" />
 <input type="hidden" name="book_id" id="book_id" value="6148028" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="2_book_6148028" />
@@ -526,7 +526,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GNcmMYWGLx177kF0jrgp5Z4mlm9tkUhvddjNAuU0WCKeyQMM+vb2INELZN5EpyIVGAiw0wdgKipkK6RDp/PXnw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dGQKGVlr/w/VQlWaQW4YE/emVDsjf6qNy0pJlBakxfaSVac7dxefwBqCCt5jpZO1zfClLuq3j9cFoGmJpU/ooQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="2_book_6148028" />
 <input type="hidden" name="book_id" id="book_id" value="6148028" />
 <input type="hidden" name="a" id="a" />
@@ -575,7 +575,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.03 —
-                2,024,864 ratings  —
+                2,024,882 ratings  —
                 published 2010
               </span>
             </div>
@@ -583,7 +583,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='3_book_7260188'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KUW13UBWOobA2MVxO1j6ZxHcmVyKPel98DiJTz4allyvW5DgPybju2o94NvxR/GXl/K/4ODMizjhy+AOfN0Z4Q==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Er9hL8t97aFsUBnqWYOz1rTa92qGP/N1zAiYfEq8qin0jswN5QGNbqOQRq57SDhwjowGf0/31i8C4rhh+VeHfg==" />
 <input type="hidden" name="book_id" id="book_id" value="7260188" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="3_book_7260188" />
@@ -602,7 +602,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T9I4a9VzTaLjgDLXRBkJWQa7frt79BS47Qp7I535mC3JzB1WqgOUn0llF32OBgKpgJVYBxEFdv38+RJi3z4XkA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qdk9/h6qzurDFYuSONV9zRUQzri6BVIaPm0TjzmipD9P6JDcMNauJQzV1NYaHvZrL0Y/rXPNd0DwhzOSikmJaA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="3_book_7260188" />
 <input type="hidden" name="book_id" id="book_id" value="7260188" />
 <input type="hidden" name="a" id="a" />
@@ -651,7 +651,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.22 —
-                2,521,374 ratings  —
+                2,521,412 ratings  —
                 published 2011
               </span>
             </div>
@@ -659,7 +659,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='4_book_13335037'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TOzAguOzy3i+YoC22DYrAHZeHYi7qmmV4BOGyq9PjTHK8uW/nMMSRRSHpRwSKSDw8HA7NNFbC9Dx4O+L7YgCjA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="myUhoKhTjVb+Xns1xo5AZXzO8vSdWXjMXGiY8ugsxRl9FIyChi/tmTGeJHHkRcvDRpgD4VSRXZaSgrjvW8foTg==" />
 <input type="hidden" name="book_id" id="book_id" value="13335037" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="4_book_13335037" />
@@ -678,7 +678,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ki1KGfDODUen+dqZsybsTTqYuVxQqFLwT/47bQLD8OAUM28kj77Ueg0c/zN5Oee9vLaf4DpZMLVeDVIsQAR/XQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yyODu0Go291QDWhRVv2Vg9Vawu795se/dM8E5102cnstEi6Zb9S7Ep/NNxV0Nh4l7wwz+zQu4uW6JST67t1fLA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="4_book_13335037" />
 <input type="hidden" name="book_id" id="book_id" value="13335037" />
 <input type="hidden" name="a" id="a" />
@@ -727,7 +727,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.24 —
-                2,924,879 ratings  —
+                2,924,914 ratings  —
                 published 2012
               </span>
             </div>
@@ -735,7 +735,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='5_book_11870085'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+GbzWdFFHifLrcrXSanBHKGrNk08VosJJ6qN/H0HhOR+eNZkrjXHGmFI732DtsrsJ4UQ8Van6Uw2WeS9P8ALWQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LfQwT1egPuSL74KmiSoMpEU+Y+dMzbXiC9SGFhGTiYvLxZ1tedxeK0Qv3eKr4YcCf2iS8oUFkLjFPqYLonik3A==" />
 <input type="hidden" name="book_id" id="book_id" value="11870085" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="5_book_11870085" />
@@ -754,7 +754,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ANtq1o4YRhROjUgFkFFrpet5Q8ryf13JSyg77ZlyU9OGxU/r8WifKeRoba9aTmBVbVdldpiOP4xa21Ks27Xcbg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KJ6Xrg+C9dPbXiSoUwH0X9ZcZQKnxHtYVwqcbf7ReUrOrzqMIf6VHBSee+xxyn/57AqUF24MXgKZ4LxwTTpUHQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="5_book_11870085" />
 <input type="hidden" name="book_id" id="book_id" value="11870085" />
 <input type="hidden" name="a" id="a" />
@@ -803,7 +803,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.58 —
-                4,322,596 ratings  —
+                4,322,637 ratings  —
                 published 2005
               </span>
             </div>
@@ -811,7 +811,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='6_book_41865'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gns2EQMva8UxCcWZI3LK/pxewy5Z60fJFODrfqB6G6QEZRMsfF+y+Jvs4DPpbcEOGnDlkjMaJYwFE4I/4r2UGQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ua+vIo0xicHWJgNf2rcq/y0/+4P1dvooURGqO+G2kd1fngIAo03pDhnmXBv4fKFZF2kKljy+33Kf+4omUl28ig==" />
 <input type="hidden" name="book_id" id="book_id" value="41865" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="6_book_41865" />
@@ -830,7 +830,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="K6xNk9QTQHMlPblUQHQRKvooQfcuwLVbJaYKRsKbjKetsmiuq2OZTo/YnP6KaxrafAZnS0Qx1x40VWMHgFwDGg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yF6hx0BzPro0kqI6577YEDflt+mgvzeOs/dLKhqybjoubwzlbg9edftS/X7FdVO2DbNG/Gl3EtR9HWs3qVlDbQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="6_book_41865" />
 <input type="hidden" name="book_id" id="book_id" value="41865" />
 <input type="hidden" name="a" id="a" />
@@ -879,7 +879,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.46 —
-                5,695,109 ratings  —
+                5,695,233 ratings  —
                 published 1997
               </span>
             </div>
@@ -887,7 +887,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='7_book_3'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dT9cd9dcn3D4QjK3qg8YXTIuTXZjdjkileLY9yva6E7zIXlKqCxGTVKnFx1gEBOttABrygmHW2eEEbG2aR1n8w==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="G4RZMyZC1snHvYzFLMPH2T/iDCz3prf8y2pMYYoBdj79tfQRCD62Bgh904EOCEx/BbT9OT5ukqYFgGx8OepbaQ==" />
 <input type="hidden" name="book_id" id="book_id" value="3" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="7_book_3" />
@@ -906,7 +906,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="32R0lVxfaJ+OfSjVZt6hDMJhQfzWvZAiI3TKijlbVFRZelGoIy+xoiSYDX+swar8RE9nQLxM8mcyh6PLe5zb6Q==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yeZ/wUPHrnqxNhpe6eBu9SPVBp699vg46UwDG+KiF6Mv19LjbbvOtX72RRrLK+VTGYP3i3Q+3WInpiMGUUk69A==" />
 <input type="hidden" name="unique_id" id="unique_id" value="7_book_3" />
 <input type="hidden" name="book_id" id="book_id" value="3" />
 <input type="hidden" name="a" id="a" />
@@ -955,7 +955,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.54 —
-                2,113,053 ratings  —
+                2,113,103 ratings  —
                 published 2000
               </span>
             </div>
@@ -963,7 +963,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='8_book_6'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/4sTogmW7IGXJggkDhF30qcYVUAy0QYO3MA4rqk+qrx5lTafduY1vD3DLY7EDnwiITZz/FggZEvNM1Hv6/klAQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yvXN6rooKPmaKQEAr202eHslBY9dI3TAQijP1+4lThIsxGDIlFRINlXpXkSNpr3eQXP0mpTrUZqMwu/KXc5jRQ==" />
 <input type="hidden" name="book_id" id="book_id" value="6" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="8_book_6" />
@@ -982,7 +982,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JlZf6PU3Cjm4xCocRsKbQ0oJG70o06JmggQY3rgT9vegSHrVikfTBBIhD7aM3ZCzzCc9AUIiwCOT93Gf+tR5Sg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cOE/vU412dQtmYgtiI01qmkZEqP027IzrMJ8yDk9UpWW0JKfYEm5G+JZ12mqRr4MU0/jtj0Tl2liKFzVitZ/wg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="8_book_6" />
 <input type="hidden" name="book_id" id="book_id" value="6" />
 <input type="hidden" name="a" id="a" />
@@ -1031,7 +1031,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.63 —
-                2,100,244 ratings  —
+                2,100,270 ratings  —
                 published 2007
               </span>
             </div>
@@ -1039,7 +1039,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='9_book_136251'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="f082Xu5MY4XUocvJ/1SuejLW8SHaNb3a23IYpHCV3cn5URNjkTy6uH5E7mM1S6WKtPjXnbDE35/KgXHlMlJSdA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OCkh5NwqOnj3A7WDk23avlRK8g2JqdeepluKBtxoQ/3eGIzG8lZatzjD6sexplEYbhwDGEBh8sRosaobb4Nuqg==" />
 <input type="hidden" name="book_id" id="book_id" value="136251" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="9_book_136251" />
@@ -1058,7 +1058,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Epo6vlIROi7CHcnrOXa2kdqU5Om6vFdYFHUo7x8IEDOUhB+DLWHjE2j47EHzab1hXLrCVdBNNR0FhkGuXc+fjg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NM9ykl98UiRcjooIzIekS0gfgVBIKzriQrreL5ikpDbS/t+wcQAy65NO1UzuTC/tcklwRYHjH7iMUP4yK0+JYQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="9_book_136251" />
 <input type="hidden" name="book_id" id="book_id" value="136251" />
 <input type="hidden" name="a" id="a" />
@@ -1107,7 +1107,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.55 —
-                2,256,437 ratings  —
+                2,256,487 ratings  —
                 published 1999
               </span>
             </div>
@@ -1115,7 +1115,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='10_book_5'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="E7YZbsKYeigAeDmzEWRTt5I/vzE5NaZBwhK+7wtmdsWVqDxTveijFaqdHBnbe1hHFBGZjVPExATT4deuSaH5eA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Y1AlZEY/eXdDEJGHpT6iqnR9MYIikLBWITEYmE30+raFYYhGaEMZuIzQzsOH9SkMTivAl+tYlQzv2ziF/h/X4Q==" />
 <input type="hidden" name="book_id" id="book_id" value="5" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="10_book_5" />
@@ -1134,7 +1134,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3/sphAD6h3zJ/f6ntOr/WU3po+ej1dVqH0FC6VNFSjdZ5Qy5f4peQWMY2w1+9fSpy8eFW8kkty8OsiuoEYLFig==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JmS4NoAtI3HH7moy4WT2aNUwIpfyF0wUVTsJBSrAvTnAVRUUrlFDvgguNXbDr33O72bTgjvfaU6b0SkYmSuQbg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="10_book_5" />
 <input type="hidden" name="book_id" id="book_id" value="5" />
 <input type="hidden" name="a" id="a" />
@@ -1183,7 +1183,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.40 —
-                2,205,241 ratings  —
+                2,205,279 ratings  —
                 published 1998
               </span>
             </div>
@@ -1191,7 +1191,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='11_book_15881'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IdZlbLbpVS5389ZbCsl9iJHevbk6Y2mjSReWyIpjhQKnyEBRyZmME90W8/HA1nZ4F/CbBVCSC+ZY5P+JyKQKvw==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IMyrn0qPqYXOjcp8tjC0DQlWJUFUIaTHSh1buM0JQajG/Qa9ZPPJSgFNlTiU+z+rMwDUVJ3pgZ2E93ulfuJs/w==" />
 <input type="hidden" name="book_id" id="book_id" value="15881" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="11_book_15881" />
@@ -1210,7 +1210,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GbgV0SGNi1wfxOgLOLulGIehVjLxSuLSOg5zy+VefOWfpjDsXv1SYbUhzaHypK7oAY9wjpu7gJcr/RqKp5nzWA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EIfpZ4ZS53TX4iGCnBnL2mcSNjEFuCA+FA7dEWspMBf2tkRFqC6Huxgifsa+0kB8XUTHJMxwBWTa5P0M2MIdQA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="11_book_15881" />
 <input type="hidden" name="book_id" id="book_id" value="15881" />
 <input type="hidden" name="a" id="a" />
@@ -1259,7 +1259,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.48 —
-                2,071,572 ratings  —
+                2,071,602 ratings  —
                 published 2003
               </span>
             </div>
@@ -1267,7 +1267,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='12_book_2'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="H3Z/O3zVbx8yKPe1v8/bs8tJNvnweLJ5rWIArtqd7WSZaFoGA6W2IpjN0h910NBDTWcQRZqJ0Dy8kWnvmFpi2Q==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dbj6kW5Eu055xrIOwndTRnuLRoPhaa+ltFXoe991zE6TiVezQDjbgbYG7UrgvNjgQd23liihiv96v8hmbJ7hGQ==" />
 <input type="hidden" name="book_id" id="book_id" value="2" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="12_book_2" />
@@ -1286,7 +1286,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="s7IQEjL/LYi95djrnBgw2pmuaGvymZvk5ZKhawJjPcM1rDUvTY/0tRcA/UFWBzsqH4BO15ho+aH0YcgqQKSyfg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DgbV+c8zc8UZzBRGra8VH99jhJDhpyBF8ddxOjY2kQroN3jb4U8TCtYMSwKPZJ655TV1hShvBR8/PVEnhd28XQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="12_book_2" />
 <input type="hidden" name="book_id" id="book_id" value="2" />
 <input type="hidden" name="a" id="a" />
@@ -1335,7 +1335,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.56 —
-                2,021,794 ratings  —
+                2,021,843 ratings  —
                 published 2005
               </span>
             </div>
@@ -1343,7 +1343,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='13_book_1'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gRgo1z3kbDBoPSmeDUaJsFnA+HlJpC4IzvUC6Kc/SVgHBg3qQpS1DcLYDDTHWYJA3+7exSNVTE3fBmup5fjG5Q==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I6nYITfJ3r0Muig1i7jIi6LsM2RfE9qeUPWGbwru+mnFmHUDGbW+csN6d3Gpc0MtmLrCcZbb/8SeH6ZyuQXXPg==" />
 <input type="hidden" name="book_id" id="book_id" value="1" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="13_book_1" />
@@ -1362,7 +1362,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1BUEEbTFqphzcUjTCUCaIygf8rcOc3XPeb/Z4xOW7TlSCyEsy7VzpdmUbXnDX5HTrjHUC2SCF4poTLCiUVFihA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CAH+cUDlzBvywPksOcS3U4DVYtduMyl/od3EW0Jne5XuMFNTbpms1D0ApmgbDzz1uoOTwqf7DCVvN+RG8YxWwg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="13_book_1" />
 <input type="hidden" name="book_id" id="book_id" value="1" />
 <input type="hidden" name="a" id="a" />
@@ -1411,7 +1411,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.53 —
-                1,278,214 ratings  —
+                1,278,219 ratings  —
                 published 2006
               </span>
             </div>
@@ -1419,7 +1419,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='14_book_49041'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="i4WwkhNh43YiZeU84SOqfFyn2s38BChRI0xzfTZZk8ANm5WvbBE6S4iAwJYrPKGM2on8cZb1ShQyvxo8dJ4cfQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tswfpel+1hjUkw1PqwbvKIzx8RzVH41Z2ZRKSIJ08e5Q/bKHxwK21xtTUguJzWSOtqcACRzXqAMXfmpVMZ/cuQ==" />
 <input type="hidden" name="book_id" id="book_id" value="49041" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="14_book_49041" />
@@ -1438,7 +1438,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="c7q6phq3jJgPur43j0ZwGVxm/8ObK0P/t6h2FPnGj7r1pJ+bZcdVpaVfm51FWXvp2kjZf/HaIbqmWx9VuwEABw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vwIxakDXA9w/g3Z0SCidVViPOio/OQOYpyxlA7XsZAFZM5xIbqtjE/BDKTBq4xbzYtnLP/bxJsJpxkUeBgdJVg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="14_book_49041" />
 <input type="hidden" name="book_id" id="book_id" value="49041" />
 <input type="hidden" name="a" id="a" />
@@ -1487,7 +1487,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.05 —
-                1,023,360 ratings  —
+                1,023,366 ratings  —
                 published 2012
               </span>
             </div>
@@ -1495,7 +1495,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='15_book_11735983'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tfSFiyUR4m/r2DJqeFqVYakR2WZ6M6JhtkvRH4GE2nwz6qC2WmE7UkE9F8CyRZ6RLz//2hDCwCSnuLhew0NVwQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9EyblCN5jp9DvXXYeEW2QJd8/lG/TimRpzhxAPRql1sSfTa2DQXuUIx9Kpxajj3mrSoPRHaGDMtp0lEdR4G6DA==" />
 <input type="hidden" name="book_id" id="book_id" value="11735983" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="15_book_11735983" />
@@ -1514,7 +1514,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wGzqcJb47dnGAzpBcy9Ja9VZ9EXltfiXQWnrmA3ApA9Gcs9N6Yg05GzmH+u5MEKbU3fS+Y9EmtJQmoLZTwcrsg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8dGu6xZWG0Dvg6s9g1hFjqhyH8Wy8PvWzTa6cZ5xsMUX4APJOCp7jyBD9Hmhk84okiTu0Hs43owD3JpsLZqdkg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="15_book_11735983" />
 <input type="hidden" name="book_id" id="book_id" value="11735983" />
 <input type="hidden" name="a" id="a" />
@@ -1563,7 +1563,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.69 —
-                1,252,275 ratings  —
+                1,252,279 ratings  —
                 published 2007
               </span>
             </div>
@@ -1571,7 +1571,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='16_book_428263'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TjzIACO7QtDIqroWL+bJG4BvhdkXkitvOOGpMoU5/jHIIu09XMub7WJPn7zl+cLrBkGjZX1jSSopEsBzx/5xjA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JcP0qW9Vk8oOCfd7fFiOzg4+WwT/V35l/H+uw/+7YIfD8lmLQSnzBcHJqD9ekwVoNGiqETafWz8ylY7eTFBN0A==" />
 <input type="hidden" name="book_id" id="book_id" value="428263" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="16_book_428263" />
@@ -1590,7 +1590,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I8kSzby58WP+z4XTQ4yGCMDBa4zO0jfCWSNUkWY6nLOl1zfww8koXlQqoHmJk434Ru9NMKQjVYdI0D3QJP0TDg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hU2rHzncB1XZ9u9DACREoy/VfO+Z3paneKaqxVeNX4ljfAY9F6BnmhY2sAci788FFYON+lAWs/22TIrY5GZy3g==" />
 <input type="hidden" name="unique_id" id="unique_id" value="16_book_428263" />
 <input type="hidden" name="book_id" id="book_id" value="428263" />
 <input type="hidden" name="a" id="a" />
@@ -1639,7 +1639,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.11 —
-                1,396,698 ratings  —
+                1,396,714 ratings  —
                 published 2007
               </span>
             </div>
@@ -1647,7 +1647,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='17_book_256683'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bcjbxdOPtX8xjLI5o/Wl9wbEwuUj6CW6d57Y0YPOJLPr1v74rP9sQptpl5Np6q4HgOrkWUkZR/9mbbGQwQmrDg==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/Clq5K29c+kebHHHfJjF1S7PJlKUUNSBI+bDWskkKjYaGMfGg8ETJtGsLoNeU05zFJnXR12Y8dvtDONHes8HYQ==" />
 <input type="hidden" name="book_id" id="book_id" value="256683" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="17_book_256683" />
@@ -1666,7 +1666,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pKcE1UZMDLE3lFxkt5bu3y+Ej4GHUkdunkEC4vRtiioiuSHoOTzVjJ1xec59ieUvqaqpPe2jJSuPsmujtqoFlw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EKKzdg/P4mU22pg+OE3s0DbxYnn+DIf2UXNg9HumaUP2kx5UIbOCqvkax3oahmd2DKeTbDfEoqyfmUDpyE1EFA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="17_book_256683" />
 <input type="hidden" name="book_id" id="book_id" value="256683" />
 <input type="hidden" name="a" id="a" />
@@ -1715,7 +1715,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.70 —
-                1,163,728 ratings  —
+                1,163,735 ratings  —
                 published 2008
               </span>
             </div>
@@ -1723,7 +1723,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='18_book_1162543'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="j6u+G7hmGCeSib7BhxADcbhCeLsBatZipcx8J+FxkEEJtZsmxxbBGjhsm2tNDwiBPmxeB2ubtCe0PxVmo7Yf/A==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eKqEzTizCKCKlrHT9EeCrTz1AmbWafRP7qae6uNU20CemynvFs9ob0VW7pfWjAkLBqPzcx+h0RUgTL73UL/2Fw==" />
 <input type="hidden" name="book_id" id="book_id" value="1162543" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="18_book_1162543" />
@@ -1742,7 +1742,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4zJMCybyOZGORYRluqDyhjR0abFrDDV5lxM8+V8QKKBlLGk2WYLgrCSgoc9wv/l2slpPDQH9VzyG4FW4HdenHQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="icG/DqOMFS/5JSxBvns0MceCa1+MOr+laB7BKeE+qsJv8BIsjfB14DblcwWcsL+X/dSaSkXymv+m9OE0UtWHlQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="18_book_1162543" />
 <input type="hidden" name="book_id" id="book_id" value="1162543" />
 <input type="hidden" name="a" id="a" />
@@ -1791,7 +1791,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.06 —
-                951,086 ratings  —
+                951,100 ratings  —
                 published 2005
               </span>
             </div>
@@ -1799,7 +1799,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='19_book_99561'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JwxQfReCo0q5QLcGNQlkN1mkXMRL+RNBdFbvMYUibvahEnVAaPJ6dxOlkqz/Fm/H34p6eCEIcQRlpYZwx+XhSw==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0IaEFp9wtvDWOQo4OLQ1UCbEJpK8T5H+/K/gqweGuWw2tyk0sQzWPxn5VXwaf772HJLXh3WHtKQyRcC2tG2UOw==" />
 <input type="hidden" name="book_id" id="book_id" value="99561" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="19_book_99561" />
@@ -1818,7 +1818,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/LKV4hn5tW7nl9UjcWTEGYDwjyRMWA++X58kecC5jtd6rLDfZolsU01y8Im7e8/pBt6pmCapbftObE04gn4Bag==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UA7EOmGjC9EdjEn8OoNp34iCZuTKBWeMuI/PsvMvzWu2P2kYT99rHtJMFrgYSOJ5stSX8QPNQtZ2Ze+vQMTgPA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="19_book_99561" />
 <input type="hidden" name="book_id" id="book_id" value="99561" />
 <input type="hidden" name="a" id="a" />
@@ -1867,7 +1867,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.20 —
-                1,072,238 ratings  —
+                1,072,260 ratings  —
                 published 1999
               </span>
             </div>
@@ -1875,7 +1875,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='20_book_22628'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1CLJ8qHemRRMg03HZlqbUopBPXnOUOX4+TbP4IuLWoxSPOzP3q5AKeZmaG2sRZCiDG8bxaShh73oxaahyUzVMQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vzd8GMDJxkHOMm+/8wC2DiSOh+C5lH9A7BbkHAFy5kVZBtE67rWmjgHyMPvRyz2oHth29XBcWhoi/MQBspnLEg==" />
 <input type="hidden" name="book_id" id="book_id" value="22628" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="20_book_22628" />
@@ -1894,7 +1894,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pDraic6dJYmtU1v+TpJkpSYFFmA/wIeHGvIoRvQlbsMiJP+0se38tAe2flSEjW9VoCsw3FUx5cILAUEHtuLhfg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zUOW9+PDFNjC5Oc3iuU7q2C1Uakzyc6/spvzZpQsSsQrcjvVzb90Fw0kuHOoLrANWuOgvPoB6+V8cdN7J8dnkw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="20_book_22628" />
 <input type="hidden" name="book_id" id="book_id" value="22628" />
 <input type="hidden" name="a" id="a" />
@@ -1943,7 +1943,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.09 —
-                705,087 ratings  —
+                705,105 ratings  —
                 published 2013
               </span>
             </div>
@@ -1951,7 +1951,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='21_book_15745753'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eSo+qJ1WBLU3qNhyyyLluocSv2Tj3D9pRmq/Ht3rpsb/NBuV4ibdiJ1N/dgBPe5KATyZ2IktXSxXmdZfnywpew==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cxbgNTO9NwjeF2wximbyKmwRG6eV75Zal8ZMtwXJOp6VJ00XHcFXxxHXM3WorXmMVkfqslwnswBZLGyqtiIXyQ==" />
 <input type="hidden" name="book_id" id="book_id" value="15745753" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="21_book_15745753" />
@@ -1970,7 +1970,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="k0xR6U53Jj2Yu1NXCfa/PUXRguSVloB6CSVYe1ojUEYVUnTUMQf/ADJedv3D6bTNw/+kWP9n4j8Y1jE6GOTf+w==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Bf0c8c2iqgV5BcaL/THX2HMVEDcYfzyALiTpqxG8AOjjzLHT497KyrbFmc/f+lx+SUPhItG3Gdrgzsm2olctvw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="21_book_15745753" />
 <input type="hidden" name="book_id" id="book_id" value="15745753" />
 <input type="hidden" name="a" id="a" />
@@ -2019,7 +2019,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.12 —
-                1,477,991 ratings  —
+                1,478,016 ratings  —
                 published 1993
               </span>
             </div>
@@ -2027,7 +2027,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='22_book_3636'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RnURr6yBYz+VnTDnjmG/6sUUHVztPVyscidtkk2eFLzAazSS0/G6Aj94FU1EfrQaQzo74IfMPulj1ATTD1mbAQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LvJz8VFNJNFEz/mOM7bsMRMjSVBWZVUxUxxKAEOuoH/Iw97TfzFEHosPpsoRfWeXKXW4RZ+tcGud9mod8EWNKA==" />
 <input type="hidden" name="book_id" id="book_id" value="3636" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="22_book_3636" />
@@ -2046,7 +2046,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cuSkr5ZZmICSDHiQpWnH0tlnbMEotkuW9XjXV0LyML30+oGS6SlBvTjpXTpvdswiX0lKfUJHKdPki74WADW/AA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y99JWQ7n8tcFixppvwjzhcgrWqLACxtaJPUShNjMJqot7uR7IJuSGMpLRS2dw3gj8n2rtwnDPgDqHzKZaycL/Q==" />
 <input type="hidden" name="unique_id" id="unique_id" value="22_book_3636" />
 <input type="hidden" name="book_id" id="book_id" value="3636" />
 <input type="hidden" name="a" id="a" />
@@ -2095,7 +2095,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.63 —
-                725,301 ratings  —
+                725,310 ratings  —
                 published 2013
               </span>
             </div>
@@ -2103,7 +2103,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='23_book_18710190'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aA7h6NVGDnZLyuWS1TjVhin3eC0tU3+8p83tRpa8LBnuEMTVqjbXS+EvwDgfJ952r9lekUeiHfm2PoQH1HujpA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="D1RYS1AJbqIPyYXLbHyqbkhymk8tD0f5MJ01qRa5AgvpZfVpfnUObcAJ2o9OtyHIciRrWuTHYqP+dxW0pVIvXA==" />
 <input type="hidden" name="book_id" id="book_id" value="18710190" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="23_book_18710190" />
@@ -2122,7 +2122,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9KU8j94bkoULQOPxSqeGOJZrLRNxNX1LSI/bfJh4vvNyuxmyoWtLuKGlxluAuI3IEEULrxvEHw5ZfLI92r8xTg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0NsGp9QoH0NJmpltp0plM7l2Bb8zcodNR0/zGBplNHA26quF+lR/jIZaximFge6VgyD0qvq6oheJpdMFqY4ZJw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="23_book_18710190" />
 <input type="hidden" name="book_id" id="book_id" value="18710190" />
 <input type="hidden" name="a" id="a" />
@@ -2171,7 +2171,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.15 —
-                556,884 ratings  —
+                556,905 ratings  —
                 published 2012
               </span>
             </div>
@@ -2179,7 +2179,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='24_book_36381037'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wYn6o944M70lNKzpRV0D6UwkXbE3VPbxcgseopUubIFHl9+eoUjqgI/RiUOPQggZygp7DV2llLRj+Hfj1+njPA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XyQ4ZmTybX+wXrwaisc3kh4NxlOX/vVCyKbTzy5Q/Kq5FZVESo4NsH+e416oDLw0JFs3Rl420BgGTPPSnbvR/Q==" />
 <input type="hidden" name="book_id" id="book_id" value="36381037" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="24_book_36381037" />
@@ -2198,7 +2198,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="luLOFi+YN9ORXClT11cA4Z/wdizYWSJ6UBV5bxVM3p4Q/OsrUOju7ju5DPkdSAsRGd5QkLKoQD9B5hAuV4tRIw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MAlJfMm5e8w3BGIUL4fi8amsm+M1jSQQeVd7V/8scD3WOORe58UbA/jEPVANTGlXk/pq9vxFAUq3vVtKTMddag==" />
 <input type="hidden" name="unique_id" id="unique_id" value="24_book_36381037" />
 <input type="hidden" name="book_id" id="book_id" value="36381037" />
 <input type="hidden" name="a" id="a" />
@@ -2247,7 +2247,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.37 —
-                1,512,146 ratings  —
+                1,512,192 ratings  —
                 published 2005
               </span>
             </div>
@@ -2255,7 +2255,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='25_book_19063'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rbZFi2tSCk/tRo0F1LT52kkuw4bOzuOUcULyY4OHrE4rqGC2FCLTckejqK8eq/IqzwDlOqQ/gdFgsZsiwUAj8w==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="G2dBbLW6jwLhgyj5y+o4263U1BZZbHUZRRPa9+MvVrL9VuxOm8bvzS5Dd73pIbN9l4IlA5CkUEOL+frqUMR75Q==" />
 <input type="hidden" name="book_id" id="book_id" value="19063" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="25_book_19063" />
@@ -2274,7 +2274,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8Ge5GDrjYgearzkQEOiLs3Z9IuGIcoqop87BZY0uUt12eZwlRZO7OjBKHLra94BD8FMEXeKD6O22Pagkz+ndYA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KX5W5yBvNlOihfoMI5oh6Jp39R59yYMpb7WwsxKyUUTPT/vFDhNWnG1FpUgBUapOoCEEC7QBpnOhX5CuoVl8Ew==" />
 <input type="hidden" name="unique_id" id="unique_id" value="25_book_19063" />
 <input type="hidden" name="book_id" id="book_id" value="19063" />
 <input type="hidden" name="a" id="a" />
@@ -2323,7 +2323,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.03 —
-                869,699 ratings  —
+                869,709 ratings  —
                 published 2009
               </span>
             </div>
@@ -2331,7 +2331,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='26_book_6186357'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0c+Y8/IEO9O8ok9yn+WFtG4rO/TxtwlCqmoMz5IavEdX0b3OjXTi7hZHathV+o5E6AUdSJtGawe7mWWO0N0z+g==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U1AqCISgBuwXEKJxN/ghR8/DNoXm/aWrpt9iNJPFTZ21YYcqqtxmI9jQ/TUVM6rh9ZXHkC81gPFoNUIpIC5gyg==" />
 <input type="hidden" name="book_id" id="book_id" value="6186357" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="26_book_6186357" />
@@ -2350,7 +2350,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="THff9K+NpEfQ34TiYDEbNQoO9IrAfUZNXrHEj/jGwSvKafrJ0P19eno6oUiqLhDFjCDSNqqMJAhPQq3OugFOlg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UvpAlXfestIvKOsttzuO+4fnbBrRVOql3y1pY3rqiWO0y+23WaLSHeDotGmV8AVdvbGdDxicz/8Rx0l+yQGkNA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="26_book_6186357" />
 <input type="hidden" name="book_id" id="book_id" value="6186357" />
 <input type="hidden" name="a" id="a" />
@@ -2399,7 +2399,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.85 —
-                746,583 ratings  —
+                746,597 ratings  —
                 published 2008
               </span>
             </div>
@@ -2407,7 +2407,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='27_book_6442769'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RHyyoLozQy3rULk9HgqHmFJiyShbeaC+dPE9LjY7KS3CYpedxUOaEEG1nJfUFYxo1EzvlDGIwvtlAlRvdPymkA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="s7FdPAv6x5O7KTN7/yvF/7dDfLzNJIx7brbIYrsHLmpVgPAeJYanXHTpbD/d4E5ZjRWNqQTsqSGgXOh/COwDPQ==" />
 <input type="hidden" name="book_id" id="book_id" value="6442769" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="27_book_6442769" />
@@ -2426,7 +2426,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="32ojHzVNidZh8TpMNLny95mIms+WxRJ8JH+Xkon/Z1tZdAYiSj1Q68sUH+b+pvkHH6a8c/w0cDk1jP7Tyzjo5g==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="F8+fNpX1oAplfhiI6Kdqw6rncA+s7fIj45ddvGiIsAHx/jIUu4nAxaq+R8zKbOFlkLGBGmUl13ktfX2h22OdVg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="27_book_6442769" />
 <input type="hidden" name="book_id" id="book_id" value="6442769" />
 <input type="hidden" name="a" id="a" />
@@ -2475,7 +2475,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.97 —
-                666,180 ratings  —
+                666,187 ratings  —
                 published 2007
               </span>
             </div>
@@ -2483,7 +2483,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='28_book_29844228'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bEhld27Hfcd7g0FflIFlPKGLscpLKJXo84E3Hb7/ZPnqVkBKEbek+tFmZPVenm7MJ6WXdiHZ963icl5c/DjrRA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OkThRkk1e2GK3X73YdWwHs7c2q7mo/hvIrF9E0KGSE/cdUxkZ0kbrkUdIbNDHju49Ioruy9r3TXsW10O8W1lGA==" />
 <input type="hidden" name="book_id" id="book_id" value="29844228" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="28_book_29844228" />
@@ -2502,7 +2502,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d73sihtojJROYKubMhKxje2BeZ8qzQrwzuwtEt7fIz/xo8m3ZBhVqeSFjjH4Dbp9a69fI0A8aLXfH0RTnBisgg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GYg9fPgudVLSTUYgrBTh6fUqYQobBaQsJHILOdHNpmL/uZBe1lIVnR2NGWSO32pPz3yQH9LNgXbqmCskYiaLNQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="28_book_29844228" />
 <input type="hidden" name="book_id" id="book_id" value="29844228" />
 <input type="hidden" name="a" id="a" />
@@ -2551,7 +2551,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.24 —
-                1,645,644 ratings  —
+                1,645,661 ratings  —
                 published 2005
               </span>
             </div>
@@ -2559,7 +2559,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='29_book_28187'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Wk9KTolihjtFQK+zUCsgrH2JkQEaOnOgKpZ5SxazMJvcUW9z9hJfBu+lihmaNCtc+6e3vXDLEeU7ZRAKVHS/Jg==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Fcd2sWg/GlG9DfdO9C+EeQLsEtPHD7PjoGMOC/sggufz9tuTRkN6nnLNqArW5A/fOLrjxg7HlrluiS4WSMuvsA==" />
 <input type="hidden" name="book_id" id="book_id" value="28187" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="29_book_28187" />
@@ -2578,7 +2578,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DMBCrbW1v457KXWRDZz+EEoAqyhVHgBZ7WrlnJcyUmCK3meQysVms9HMUDvHg/XgzC6NlD/vYhz8mYzd1fXd3Q==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RUVACpODq34QFehCpz9AkPGNBXtBbYlMtf3VMCoZoeqjdO0ovf/Lsd/VtwaF9Ms2y9v0boilrBZ7F/UtmfKMvQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="29_book_28187" />
 <input type="hidden" name="book_id" id="book_id" value="28187" />
 <input type="hidden" name="a" id="a" />
@@ -2627,7 +2627,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.90 —
-                816,914 ratings  —
+                816,926 ratings  —
                 published 2011
               </span>
             </div>
@@ -2635,7 +2635,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='30_book_9460487'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="t8f+MbPs6i0+bIWXLZBuCYZ5TUlw/rUUJNEuj7pmMo0x2dsMzJwzEJSJoD3nj2X5AFdr9RoP11E1IkfO+KG9MA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="X0GBajg1rfCpAmILGNZhHZnW5lgDuhagTPktXFcpbq65cCxIFknNP2bCPU86Heq7o4AXTcpyM/qCEw1B5MJD+Q==" />
 <input type="hidden" name="book_id" id="book_id" value="9460487" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="30_book_9460487" />
@@ -2654,7 +2654,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8iCDnwKQjaPxumZtgUQUCGjMJXT/IV7zkbXJz7LGX6x0PqaifeBUnltfQ8dLWx/47uIDyJXQPLaARqCO8AHQEQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5/qiUITLabJA8d7vgZ157T7p6I4Va/k0p6m3a4+l9H8Byw9yqrcJfY8xgaujVvJLBL8Zm9yj3G5pQ5d2PE7ZKA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="30_book_9460487" />
 <input type="hidden" name="book_id" id="book_id" value="9460487" />
 <input type="hidden" name="a" id="a" />
@@ -2703,7 +2703,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.20 —
-                641,439 ratings  —
+                641,452 ratings  —
                 published 2008
               </span>
             </div>
@@ -2711,7 +2711,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='31_book_1582996'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vBRVeeRMDDso/2mrU5ITY3omz50fKjGo/guJx1xAA4g6CnBEmzzVBoIaTAGZjRiT/AjpIXXbU+3v+OCGHoeMNQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZEpAsjiL/uROg0gA2RaMHlP12N05/d1f/u0P03/nA+mCe+2QFveeK4FDF0T73Qe4aaMpyPA1+AUwBy/OzAwuvg==" />
 <input type="hidden" name="book_id" id="book_id" value="1582996" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="31_book_1582996" />
@@ -2730,7 +2730,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xskaH0sOrQfUTJ6mpUAL1SI6POsUn5tkdXfeZuuGkdNA1z8iNH50On6puwxvXwAlpBQaV35u+SFkhLcnqUEebg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sHtQzwCkeOP8RbLDgWZbF43SQzjY7AsEpQOh2s9Hn7tWSv3tLtgYLDOF7YejrdCxt4SyLREkLl5r6YHHfKyy7A==" />
 <input type="hidden" name="unique_id" id="unique_id" value="31_book_1582996" />
 <input type="hidden" name="book_id" id="book_id" value="1582996" />
 <input type="hidden" name="a" id="a" />
@@ -2779,7 +2779,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.09 —
-                459,285 ratings  —
+                459,303 ratings  —
                 published 2013
               </span>
             </div>
@@ -2787,7 +2787,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='32_book_16068905'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Nifa8Hv1itSm5KRfLJlRzhSOR0s2OHCYINwHm6GAFgSwOf/NBIVT6QwBgfXmhlo+kqBh91zJEt0xL27a40eZuQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KTjho+C7/vYIJxUKrMKsUF7V7oOAmixWzJXNv2/AI4bPCUyBzseeOcfnSk6OCSf2ZIMflklSCQwCf+2i3CsO0Q==" />
 <input type="hidden" name="book_id" id="book_id" value="16068905" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="32_book_16068905" />
@@ -2806,7 +2806,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2hDpgyKL+9TlPxd5/SVyh2MoVSa18wbIhIxGa5bljsFcDsy+Xfsi6U/aMtM3Onl35QZzmt8CZI2Vfy8q1CIBfA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5TDRvEsmDo6jXOpU2JO7MmXzisHdAKxhufXddS76B7UDAXyeZVpuQWyctRD6WDCUX6V71BTIiTt3H/1onREq4g==" />
 <input type="hidden" name="unique_id" id="unique_id" value="32_book_16068905" />
 <input type="hidden" name="book_id" id="book_id" value="16068905" />
 <input type="hidden" name="a" id="a" />
@@ -2855,7 +2855,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.33 —
-                703,450 ratings  —
+                703,452 ratings  —
                 published 2009
               </span>
             </div>
@@ -2863,7 +2863,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='33_book_3777732'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+aj6JmgTseL9ENjSG/Oo72osByxpyzSM4ID3JvIqMm5/tt8bF2No31f1/XjR7KMf7AIhkAM6Vsnxc55nsO290w==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="um/yXHYjYF9ARcZJv1hQacY3L6nzyBCrcHkCFXzSoXlcXl9+WF8AkI+FmQ2dk9vP/GHevDoANfG+kyIIzzmMLg==" />
 <input type="hidden" name="book_id" id="book_id" value="3777732" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="33_book_3777732" />
@@ -2882,7 +2882,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sc/eXS5b482faJjKNBZJtNZzZZB3o4cqrG0y6nnnPbI30ftgUSs68DWNvWD+CUJEUF1DLB1S5W+9nlurOyCyDw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jlTmj33K/ZtIgcbODr7RP/uD9SrHyVYwg8AnQMaRs3loZUutU7adVIdBmYosdVqZwdUEPw4Bc2pNKgdddXqeLg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="33_book_3777732" />
 <input type="hidden" name="book_id" id="book_id" value="3777732" />
 <input type="hidden" name="a" id="a" />
@@ -2931,7 +2931,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.67 —
-                583,809 ratings  —
+                583,816 ratings  —
                 published 2010
               </span>
             </div>
@@ -2939,7 +2939,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='34_book_7735333'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U02sVEFSRk2lO2bdmyen9y0BRoVA/iYnoOghV4eJQvHVU4lpPiKfcA/eQ3dROKwHqy9gOSoPRGKxG0gWxU7NTA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GcJHfFdOL+TOnmVeZeC/bRiq2sgztkQmJs+RfVoAxr//8+peeTJPKwFeOhpHKzTLIvwr3fp+YXzoJbFg6evr6A==" />
 <input type="hidden" name="book_id" id="book_id" value="7735333" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="34_book_7735333" />
@@ -2958,7 +2958,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ighB8HShfnzlGI9n0eYZ9U7+rl/Abe9BhdDt8yJ0G2AMFmTNC9GnQU/9qs0b+RIFyNCI46qcjQSUI4SyYLOU3Q==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HmItzdH76Y/4vA6qKyr3IeDcQu6W8nHynZeLMT0qUfT4U4Dv/4eJQDd8Ue4J4XyH2oqz+186VKhTfassjsF8ow==" />
 <input type="hidden" name="unique_id" id="unique_id" value="34_book_7735333" />
 <input type="hidden" name="book_id" id="book_id" value="7735333" />
 <input type="hidden" name="a" id="a" />
@@ -3007,7 +3007,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.95 —
-                637,016 ratings  —
+                637,026 ratings  —
                 published 2009
               </span>
             </div>
@@ -3015,7 +3015,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='35_book_4374400'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="K9TBM0AOW02PYmo8scbCymnNkSPpFwkR7j7P349P1uetyuQOP36CcCWHT5Z72ck67+O3n4Pma1T/zaaezYhZWg==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+dWHTyPTOgQZhRCaYEb85CuJGHdVJ+b1fi/5S5JsrNof5CptDa9ay9ZFT95CjXdCEd/pYpzvw6+wxdlWIYeBjQ==" />
 <input type="hidden" name="book_id" id="book_id" value="4374400" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="35_book_4374400" />
@@ -3034,7 +3034,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NRkBjeociO+T2xJfdd0ZbkaDX9RI6pLFuPbqBCJadZ6zBySwlWxR0jk+N/W/whKewK15aCIb8ICpBYNFYJ36Iw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1uQCZzhu8xTIIOrRDjdLLVHbAjrbJ1UDqaG01/JJq9gw1a9FFhKT2wfgtZUs/MCLa43zLxLvcFlnS5TKQaKGjw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="35_book_4374400" />
 <input type="hidden" name="book_id" id="book_id" value="4374400" />
 <input type="hidden" name="a" id="a" />
@@ -3083,7 +3083,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.86 —
-                505,871 ratings  —
+                505,875 ratings  —
                 published 2005
               </span>
             </div>
@@ -3091,7 +3091,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='36_book_24770'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5F7wkUfgwIcFlonUNvpAB3SnK3emeeBjNFcpCk8aqZ5iQNWsOJAZuq9zrH785Uv38okNy8yIgiYlpEBLDd0mIw==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I+3axcU7hJztPcuQscCBQao5rbTjVB3FS+rCulPeTuvF3Hfn60fkUyL9lNSTCwrnkG9coSqcOJ+FAOKn4DVjvA==" />
 <input type="hidden" name="book_id" id="book_id" value="24770" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="36_book_24770" />
@@ -3110,7 +3110,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4wrpMtQDi20VT+i0k1cWdEE0Immj2JoLuuWbBOUtzRtlFMwPq3NSUL+qzR5ZSB2ExxoE1ckp+E6rFvJFp+pCpg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Za3+PiTrPlpM3P1h+tlIjfD2vRaYJZkjNZHBua4OdpiDnFMcCpdelYMcoiXYEsMryqBMA1HtvHn7e+GkHeVbzw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="36_book_24770" />
 <input type="hidden" name="book_id" id="book_id" value="24770" />
 <input type="hidden" name="a" id="a" />
@@ -3159,7 +3159,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.01 —
-                410,400 ratings  —
+                410,410 ratings  —
                 published 1999
               </span>
             </div>
@@ -3167,7 +3167,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='37_book_39280444'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="C1aM4np3/wze/5dlj1+bLIVvChHKeLPfnCLNaoIIlqyNSKnfBQcmMXQass9FQJDcA0EsraCJ0ZqN0aQrwM8ZEQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eddQZC0/QHEIDbt9mVyD1vU6BmQ1+3D+hpN/OuMMU6mf5v1GA0MgvsfN5Dm7lwhwz2z3cfwzVaRIeV8nUOd+/g==" />
 <input type="hidden" name="book_id" id="book_id" value="39280444" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="37_book_39280444" />
@@ -3186,7 +3186,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nmJqHLdWKPJoEvvyN3s+J5n0QoN9fmtNjdukoN6eNLwYfE8hyCbxz8L33lj9ZDXXH9pkPxePCQicKM3hnFm7AQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LrEp6ikfN1KfIjh6aPTnTWoj9dLa4z3jDgLExAs4OZ3IgITIB2NXnVDiZz5KP2zrUHUExxMrGLnA6OTZuNMUyg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="37_book_39280444" />
 <input type="hidden" name="book_id" id="book_id" value="39280444" />
 <input type="hidden" name="a" id="a" />
@@ -3235,7 +3235,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.14 —
-                685,454 ratings  —
+                685,474 ratings  —
                 published 2012
               </span>
             </div>
@@ -3243,7 +3243,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='38_book_10507293'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pUI8MLYa8jlzKI6dvhvs1KR0LrcgESZPKZRUJI2P+AcjXBkNyWorBNnNqzd0BOckIloIC0rgRAo4Zz1lz0h3ug==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OSB3rZHT70f2phBibqPijjGtdVaWjJM90Z7rHwOFPCTfEdqPv6+PiDlmTyZMaGkoC/uEQ19EtmcfdMsCsG4Rcw==" />
 <input type="hidden" name="book_id" id="book_id" value="10507293" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="38_book_10507293" />
@@ -3262,7 +3262,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/3NxWmi5oXugtRQXqPbBhEA5mVM5aGvVpVgbCkZSu6Z5bVRnF8l4RgpQMb1i6cp0xhe/71OZCZC0q3JLBJU0Gw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZqrAq6Wjn3LZ4BKFz4cGTqslZJP2IRKDAh0edVcXeNGAm22Ji9//vRYgTcHtTI3okXOVhj/pN9nM9z5o5PxVhg==" />
 <input type="hidden" name="unique_id" id="unique_id" value="38_book_10507293" />
 <input type="hidden" name="book_id" id="book_id" value="10507293" />
 <input type="hidden" name="a" id="a" />
@@ -3311,7 +3311,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.96 —
-                1,105,512 ratings  —
+                1,105,525 ratings  —
                 published 1995
               </span>
             </div>
@@ -3319,7 +3319,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='39_book_119322'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Nm16jpfmwUCymnz1WS59d6PmmkMDZr32Gd9AMC+HL6Wwc1+z6JYYfRh/WV+TMXaHJci8/2mX37MILClxbUCgGA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="n7Q5wvIPlMaVMbVVKmiwOxlC07TShgeqCL4xGB4O7/15hZTg3HP0CVrx6hEIozudIxQioRtOIvDGVBEFreXCqg==" />
 <input type="hidden" name="book_id" id="book_id" value="119322" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="39_book_119322" />
@@ -3338,7 +3338,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="FXyfMj1r7xh8uEeO1SH/LDSqhK8EeVAXDaBXug+2DsOTYroPQhs2JdZdYiQfPvTcsoSiE26IMlIcUz77TXGBfg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xgnUYbRZnO/C/iufC9xQ1EcFQ39yzCHHF5dRVXyrFQ8gOHlDmiX8IA0+dNspF9tyfVOyarsEBJ3ZfXFIz0A4WA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="39_book_119322" />
 <input type="hidden" name="book_id" id="book_id" value="119322" />
 <input type="hidden" name="a" id="a" />
@@ -3387,7 +3387,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.33 —
-                575,196 ratings  —
+                575,200 ratings  —
                 published 2010
               </span>
             </div>
@@ -3395,7 +3395,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='40_book_7171637'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ek5uXQ372hq8xVF9/+Q1+LdwcJh2P8Bi20pWRMkblmj8UEtgcosDJxYgdNc1+z4IMV5WJBzOoifKuT8Fi9wZ1Q==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="orojopQj2ystdldkvXz7I4cOZRk8xjGGfxflbRfx+dtEi46Aul+75OK2CCCft3CFvViUDPUOFNyx/cVwpBrUjA==" />
 <input type="hidden" name="book_id" id="book_id" value="7171637" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="40_book_7171637" />
@@ -3414,7 +3414,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hk4WQylbrjzvQtDhTw0UNo1KqVigH34MJEe83uWEk6IAUDN+Vit3AUWn9UuFEh/GC2SP5MruHEk1tNWfp0McHw==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0qnPS52kHhO9zNGz3z1pasR6qMzxGHsowNnN3O4+zKE0mGJps9h+3HIMjvf99uLM/ixZ2TjQXnIOM+3BXdXh9g==" />
 <input type="hidden" name="unique_id" id="unique_id" value="40_book_7171637" />
 <input type="hidden" name="book_id" id="book_id" value="7171637" />
 <input type="hidden" name="a" id="a" />
@@ -3463,7 +3463,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.09 —
-                335,501 ratings  —
+                335,508 ratings  —
                 published 2008
               </span>
             </div>
@@ -3471,7 +3471,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='41_book_3236307'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="A1nAnf3f7lCLATfT7HRuhNQ/doIW2mmUG/dKnJuPRmGFR+Wggq83bSHkEnkma2V0UhFQPnwrC9EKBCPd2UjJ3A==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ft8QMlR3w3TW70ZWRIX34xYdZm1u+B8My23W2wkh9J7w7r0QegujuxkvGRJmTnxFLEuXeKcwOlYFh/bGusrZyQ==" />
 <input type="hidden" name="book_id" id="book_id" value="3236307" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="41_book_3236307" />
@@ -3490,7 +3490,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g4l+SB93SQ88XLAHf5pTBppPIkZ4BPsD7oYUSojVP1YFl1t1YAeQMpa5la21hVj2HGEE+hL1mUb/dX0LyhKw6w==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5jSo59sXUWdVwxZiiFoTMfyCQFK6pb8oA7XxSCGOPYQABQXF9WsxqJoDSSaqkZiXxtSxR3NtmnLNX9FVkmUQ0w==" />
 <input type="hidden" name="unique_id" id="unique_id" value="41_book_3236307" />
 <input type="hidden" name="book_id" id="book_id" value="3236307" />
 <input type="hidden" name="a" id="a" />
@@ -3539,7 +3539,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.03 —
-                265,640 ratings  —
+                265,641 ratings  —
                 published 2011
               </span>
             </div>
@@ -3547,7 +3547,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='42_book_8490112'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="khhmNkWTEhNh1mtVqRdxwSWE5scsI6FzQN0KjX80TnEUBkMLOuPLLsszTv9jCHoxo6rAe0bSwzZRLmPMPfPBzA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lVrkifJWitOtotnsAbc+ClVc28DJJ+ZcbiONIqIxdBZza0mr3CrqHGJihqgjfLWsbwoq1QDvwwagya0/EdpZQQ==" />
 <input type="hidden" name="book_id" id="book_id" value="8490112" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="42_book_8490112" />
@@ -3566,7 +3566,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GYDM8yXXwAQtzQ1pA5yJxBmJ3YymM4NPWvp/b7bQS/GfnunOWqcZOYcoKMPJg4I0n6f7MMzC4QpLCRYu9BfETA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hkWqduwSpZub8MOxDEgSpvMM5P1xLmm+j9pRma4RXq9gdAdUwm7FVFQwnPUug5kAyVoV6LjmTORBMHGEHfpz+A==" />
 <input type="hidden" name="unique_id" id="unique_id" value="42_book_8490112" />
 <input type="hidden" name="book_id" id="book_id" value="8490112" />
 <input type="hidden" name="a" id="a" />
@@ -3615,7 +3615,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.22 —
-                440,610 ratings  —
+                440,622 ratings  —
                 published 2012
               </span>
             </div>
@@ -3623,7 +3623,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='43_book_7896527'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UqZbsqaBCH6zs3lzAwzHMR19dhWtEQZxuhbFasglxhjUuH6P2fHRQxlWXNnJE8zBm1NQqcfgZDSr5awriuJJpQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="F5lG6EaZeARcTWCGSM72zSlsZXF7hyz7ZELxMHQ+elXxqOvKaOUYy5ONP8JqBX1rEzqUZLJPCaGqqNEtx9VXAg==" />
 <input type="hidden" name="book_id" id="book_id" value="7896527" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="43_book_7896527" />
@@ -3642,7 +3642,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3XX2+ILwfAvysg92eC/ueDn+0oQYiWD1b7gVrMa4ziFba9PF/YClNlhXKtyyMOWIv9D0OHJ4ArB+S3zthH9BnA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WqCM6ZwfQ6eI3/XQhh7HkQka69T+LXmd6HHcK9KEYxu8kSHLsmMjaEcfqpSk1Uw3M0wawTflXMcmm/w2YW9OTA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="43_book_7896527" />
 <input type="hidden" name="book_id" id="book_id" value="7896527" />
 <input type="hidden" name="a" id="a" />
@@ -3691,7 +3691,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.84 —
-                367,725 ratings  —
+                367,739 ratings  —
                 published 2014
               </span>
             </div>
@@ -3699,7 +3699,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='44_book_16143347'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EbrvbsRKhh85Sj5BHjgcEcuaUk3ADfXylWggNuxlKDSXpMpTuzpfIpOvG+vUJxfhTbR08ar8l7eEm0l3rqKniQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/2/rJ/6O01hsIHLTzxjA8ih21P9tb2Wz6p+TjhVsnRYZXkYF0PKzl6PgLZft00tUEiAl6qSnQOkkdbOTpoewQQ==" />
 <input type="hidden" name="book_id" id="book_id" value="16143347" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="44_book_16143347" />
@@ -3718,7 +3718,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+SjskyO4ZjAC76oeqAgliNb5npPBgO6Fi7TNxw4XJB9/NsmuXMi/DagKj7RiFy54UNe4L6txjMCaR6SGTNCrog==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MYgEQmZ+Dhriv93z3UrObvZWo2dSPuOa3GZSK9pUpivXualgSAJu1S1/grf/gUXIzABScpv2xsASjHI2ab+LfA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="44_book_16143347" />
 <input type="hidden" name="book_id" id="book_id" value="16143347" />
 <input type="hidden" name="a" id="a" />
@@ -3767,7 +3767,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.13 —
-                494,028 ratings  —
+                494,032 ratings  —
                 published 2007
               </span>
             </div>
@@ -3775,7 +3775,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='45_book_345627'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Z3q4YogGsPxoQ1WYttTBcEgRTP5t6uQ+d8y3OVM/sX3hZJ1f93ZpwcKmcDJ8y8qAzj9qQgcbhntmP954Efg+wA==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lZyYU9kbys3CDCMCGYgfdmXIiH0FVEvCefhv6OLaCThzrTVx92eqAg3MfEY7Q5TQX555aMycbpi3Ek/1UTEkbw==" />
 <input type="hidden" name="book_id" id="book_id" value="345627" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="45_book_345627" />
@@ -3794,7 +3794,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ot1ZtfbhUn9pqUV/JMgOavXies4gULmDwy5Q0w58KDskw3yIiZGLQsNMYNXu1wWac8xcckqh28bS3TmSTLunhg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="q9RHwyJQGlA+pM1j3eQkSaRY5vk2FdGnSeiu23acf2NN5erhDCx6n/Fkkif/L6/vng4X7P/d9P2HAo7GxXdSNA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="45_book_345627" />
 <input type="hidden" name="book_id" id="book_id" value="345627" />
 <input type="hidden" name="a" id="a" />
@@ -3842,8 +3842,8 @@ Error rating book. Refresh and try again.
 
               <br />
               <span class="greyText smallText">
-                avg rating 3.99 —
-                384,258 ratings  —
+                avg rating 3.98 —
+                384,261 ratings  —
                 published 2011
               </span>
             </div>
@@ -3851,7 +3851,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='46_book_11614718'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0rIGdXCxKvyxseTpz6hMSUgF2vgFmv4kWAsx4qOg12pUrCNID8HzwRtUwUMFt0e5ziv8RG9rnGFJ+Fij4WdY1w==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vmVkwkJcnWqUlo+qZwpXS4A63IDHq8e1Q65hJGovNrJYVMngbCD9pVtW0O5FwdztumwtlQ5j4u+NREE52cQb5Q==" />
 <input type="hidden" name="book_id" id="book_id" value="11614718" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="46_book_11614718" />
@@ -3870,7 +3870,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nIFumDkiV9zdgAXSDRv8EQ+u89KY2nWZO+nYBLgpBK8an0ulRlKO4XdlIHjHBPfhiYDVbvIrF9wqGrFF+u6LEg==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TEd5D12ukv20+yZVVcw4P4DyWnmNYL583lrp47RF2J+qdtQtc9LyMns7eRF3B7OZuqSrbESomyYQsMn+B671yA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="46_book_11614718" />
 <input type="hidden" name="book_id" id="book_id" value="11614718" />
 <input type="hidden" name="a" id="a" />
@@ -3919,7 +3919,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.29 —
-                252,914 ratings  —
+                252,919 ratings  —
                 published 2013
               </span>
             </div>
@@ -3927,7 +3927,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='47_book_13206760'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TTWMu9qs/QmuMGl9AkLzWfzX+d2N7dctfjUn+fxBwkzLK6mGpdwkNATVTNfIXfipevnfYecctWhvxk64voZN8Q==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="onz4Iv7knM3+kXq7T+bTAz0/GnEMcNS3PK3+UVfqyCNETVUA0Jj8AjFRJf9tLVilB2nrZMW48e3yR95M5AHldA==" />
 <input type="hidden" name="book_id" id="book_id" value="13206760" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="47_book_13206760" />
@@ -3946,7 +3946,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PPLTOmsAdjN7LmUC+tUBqZ04uCrwtQFLnX115Pv0+2i67PYHFHCvDtHLQKgwygpZGxaelppEYw6MjhyluTN01Q==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DLbKhYXQeLu7cSki71tfVe5fosv/kVx18ti0rKPDieLqh2enq6wYdHSxdmbNkNTz1AlT3jZZeS88MpSxECiktQ==" />
 <input type="hidden" name="unique_id" id="unique_id" value="47_book_13206760" />
 <input type="hidden" name="book_id" id="book_id" value="13206760" />
 <input type="hidden" name="a" id="a" />
@@ -3995,7 +3995,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.08 —
-                778,659 ratings  —
+                778,673 ratings  —
                 published 1967
               </span>
             </div>
@@ -4003,7 +4003,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='48_book_231804'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9XMjYd2F9Wezq2O/ByvZq1gRwBys6oOZwfzlNLfj3IBzbQZcovUsWhlORhXNNNJb3j/moMYb4dzQD4x19SRTPQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KjBUVFfBP4wujRwuaiWt0cD6GVvB4PQwK307T8t2UGXMAfl2eb1fQ+FNQ2pI7iZ3+qzoTggo0WrllxtSeJ19Mg==" />
 <input type="hidden" name="book_id" id="book_id" value="231804" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="48_book_231804" />
@@ -4022,7 +4022,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZlEfB8gutm3oQffcgaYRb+psZOaHZakVhU5R4JNk7YjgTzo6t15vUEKk0nZLuRqfbEJCWu2Uy1CUvTih0aNiNQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WCbY7yd3obIqFXNWTlj7Uj0VkI+pXdg9Q+/UGhTffrC+F3XNCQvBfeXVLBJsk3D0B0NhmmCV/WeNBfQHpzRT5w==" />
 <input type="hidden" name="unique_id" id="unique_id" value="48_book_231804" />
 <input type="hidden" name="book_id" id="book_id" value="231804" />
 <input type="hidden" name="a" id="a" />
@@ -4071,7 +4071,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 3.60 —
-                392,044 ratings  —
+                392,049 ratings  —
                 published 2006
               </span>
             </div>
@@ -4079,7 +4079,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='49_book_49750'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zyYdlah9UOAwDoXUDvPCNVzUxhaCy2UcuS1ETTvxfFNJODio1w2J3ZrroH7E7MnF2vrgqug6B1mo3i0MeTbz7g==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TIQEgTuZ8zebH+o8m/3oDATm+9fes5Z0MD/Q7d92S06qtamjFeWT+FTftXi5NmOqPrAKwhd7sy7+1fDwbJ1mGQ==" />
 <input type="hidden" name="book_id" id="book_id" value="49750" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="49_book_49750" />
@@ -4098,7 +4098,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RvP1O5Zah/2QZk6x9pum8Dvp1EwXqbW/AWRw0Dc3AbzA7dAG6SpewDqDaxs8hK0Avcfy8H1Y1/oQlxmRdfCOAQ==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TeP6nI7R4wrwmdBDrxHmarKTclNhLFjzc2EkGQ/2Lfur0le+oK2DxT9ZjweN2m3MiMWDRqjkfam9iwQEvB0ArA==" />
 <input type="hidden" name="unique_id" id="unique_id" value="49_book_49750" />
 <input type="hidden" name="book_id" id="book_id" value="49750" />
 <input type="hidden" name="a" id="a" />
@@ -4147,7 +4147,7 @@ Error rating book. Refresh and try again.
               <br />
               <span class="greyText smallText">
                 avg rating 4.55 —
-                241,171 ratings  —
+                241,219 ratings  —
                 published 2017
               </span>
             </div>
@@ -4155,7 +4155,7 @@ Error rating book. Refresh and try again.
             <div class="right">
               <div class='wtrButtonContainer wtrSignedOut' id='50_book_32075671'>
 <div class='wtrUp wtrLeft'>
-<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tZDHRPqlWx09Mxgv7e920z2kj7+vQmnwhFMGxfb7AfQzjuJ5hdWCIJfWPYUn8H0ju4qpA8WzC7WVoG+EtDyOSQ==" />
+<form action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZVRL68ii3k+lkjSK5h0Ju76ktD18gNr5NLEx1fPN1KyDZebJ5t6+gGpSa87E1oIdhPJFKLVI/6P6WxHIQCb5+w==" />
 <input type="hidden" name="book_id" id="book_id" value="32075671" />
 <input type="hidden" name="name" id="name" value="to-read" />
 <input type="hidden" name="unique_id" id="unique_id" value="50_book_32075671" />
@@ -4174,7 +4174,7 @@ Error rating book. Refresh and try again.
 </div>
 
 <div class='wtrRight wtrUp'>
-<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PbDOVCbeGZP1Oy2HPH4EvFGKcp2pByEJr5/EENbLwXW7rutpWa7Arl/eCC32YQ9M16RUIcP2Q0y+bK1RlAxOyA==" />
+<form class="hiddenShelfForm" action="/shelf/add_to_shelf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QyQTK4UEgL8+/wGUbxy5sWipNGsdQjY/4A/CXg8A7EilFb4Jq3jgcPE/XtBN1zIXUv/FftSKE2Uu5eJDvOvBHw==" />
 <input type="hidden" name="unique_id" id="unique_id" value="50_book_32075671" />
 <input type="hidden" name="book_id" id="book_id" value="32075671" />
 <input type="hidden" name="a" id="a" />
@@ -4225,13 +4225,13 @@ Error rating book. Refresh and try again.
           <div class="cell">
             
 <div class="listImgs">
-  <a href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance"><img alt="Beautiful Disaster by Jamie McGuire" title="Beautiful Disaster by Jamie McGuire" src="https://images.gr-assets.com/books/1358259032m/11505797.jpg" /></a><a href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance"><img alt="Hopeless by Colleen Hoover" title="Hopeless by Colleen Hoover" src="https://images.gr-assets.com/books/1353489892m/15717943.jpg" /></a><a href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance"><img alt="Easy by Tammara Webber" title="Easy by Tammara Webber" src="https://images.gr-assets.com/books/1349370267m/16056408.jpg" /></a><a href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance"><img alt="The Edge of Never by J.A. Redmerski" title="The Edge of Never by J.A. Redmerski" src="https://images.gr-assets.com/books/1358810128m/16081272.jpg" /></a><a href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance"><img alt="Slammed by Colleen Hoover" title="Slammed by Colleen Hoover" src="https://images.gr-assets.com/books/1328530463m/13372690.jpg" /></a>
+  <a href="/list/show/26495.Best_Woman_Authored_Books"><img alt="To Kill a Mockingbird by Harper Lee" title="To Kill a Mockingbird by Harper Lee" src="https://images.gr-assets.com/books/1361975680m/2657.jpg" /></a><a href="/list/show/26495.Best_Woman_Authored_Books"><img alt="Pride and Prejudice by Jane Austen" title="Pride and Prejudice by Jane Austen" src="https://images.gr-assets.com/books/1320399351m/1885.jpg" /></a><a href="/list/show/26495.Best_Woman_Authored_Books"><img alt="Harry Potter Series Box Set by J.K. Rowling" title="Harry Potter Series Box Set by J.K. Rowling" src="https://images.gr-assets.com/books/1534298934m/862041.jpg" /></a><a href="/list/show/26495.Best_Woman_Authored_Books"><img alt="Jane Eyre by Charlotte Brontë" title="Jane Eyre by Charlotte Brontë" src="https://images.gr-assets.com/books/1327867269m/10210.jpg" /></a><a href="/list/show/26495.Best_Woman_Authored_Books"><img alt="The Diary of a Young Girl by Anne Frank" title="The Diary of a Young Girl by Anne Frank" src="https://images.gr-assets.com/books/1537075718m/48855.jpg" /></a>
 </div>
-<a class="listTitle" href="/list/show/29836.Best_YA_New_Adult_Contemporary_Romance">Best YA/New Adult Contemporary Romance</a><br />
+<a class="listTitle" href="/list/show/26495.Best_Woman_Authored_Books">Best Woman-Authored Books</a><br />
 <div class="listFullDetails">
-    1,253 books
+    5,982 books
     &mdash;
-    3,831 voters
+    4,185 voters
 
 
 
@@ -4241,13 +4241,13 @@ Error rating book. Refresh and try again.
           <div class="cell">
             
 <div class="listImgs">
-  <a href="/list/show/72299.YA_Novels_of_2016"><img alt="Lady Midnight by Cassandra Clare" title="Lady Midnight by Cassandra Clare" src="https://images.gr-assets.com/books/1460477682m/25494343.jpg" /></a><a href="/list/show/72299.YA_Novels_of_2016"><img alt="Glass Sword by Victoria Aveyard" title="Glass Sword by Victoria Aveyard" src="https://images.gr-assets.com/books/1436460934m/23174274.jpg" /></a><a href="/list/show/72299.YA_Novels_of_2016"><img alt="Heartless by Marissa Meyer" title="Heartless by Marissa Meyer" src="https://images.gr-assets.com/books/1477740245m/18584855.jpg" /></a><a href="/list/show/72299.YA_Novels_of_2016"><img alt="Crooked Kingdom by Leigh Bardugo" title="Crooked Kingdom by Leigh Bardugo" src="https://images.gr-assets.com/books/1456172607m/22299763.jpg" /></a><a href="/list/show/72299.YA_Novels_of_2016"><img alt="The Raven King by Maggie Stiefvater" title="The Raven King by Maggie Stiefvater" src="https://images.gr-assets.com/books/1477103790m/17378527.jpg" /></a>
+  <a href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_"><img alt="Cinder by Marissa Meyer" title="Cinder by Marissa Meyer" src="https://images.gr-assets.com/books/1470056948m/11235712.jpg" /></a><a href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_"><img alt="The Selection by Kiera Cass" title="The Selection by Kiera Cass" src="https://images.gr-assets.com/books/1322103400m/10507293.jpg" /></a><a href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_"><img alt="Under the Never Sky by Veronica Rossi" title="Under the Never Sky by Veronica Rossi" src="https://images.gr-assets.com/books/1356591725m/11594257.jpg" /></a><a href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_"><img alt="Everneath by Brodi Ashton" title="Everneath by Brodi Ashton" src="https://images.gr-assets.com/books/1340210035m/9413044.jpg" /></a><a href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_"><img alt="Incarnate by Jodi Meadows" title="Incarnate by Jodi Meadows" src="https://images.gr-assets.com/books/1358271343m/8573642.jpg" /></a>
 </div>
-<a class="listTitle" href="/list/show/72299.YA_Novels_of_2016">YA Novels of 2016</a><br />
+<a class="listTitle" href="/list/show/11525.2012_Debut_Authors_Young_Adult_Middle_Grade_">2012 Debut Authors (Young Adult &amp; Middle Grade)</a><br />
 <div class="listFullDetails">
-    1,294 books
+    1,034 books
     &mdash;
-    9,639 voters
+    6,576 voters
 
 
 
@@ -4267,7 +4267,7 @@ Error rating book. Refresh and try again.
       <img alt="Michelle Hodkin" src="https://images.gr-assets.com/authors/1454082708p2/4126827.jpg" />
 </a>
 <div class="quoteText">
-      &ldquo;You want me as much as I want you. And all I want is you."<br />My tongue warred with my mind. "Today," I whispered.<br />Noah stood slowly, his body skimming mine as he rose. "Today. Tonight. Tomorrow. Forever.&rdquo;
+      &ldquo;What would you do if I kissed you right now?"<br />I stared at his beautiful face and his beautiful mouth and I wanted nothing more than to taste it. "I would kiss you back.&rdquo;
   <br>  &#8213;
   <span class="authorOrTitle">
     Michelle Hodkin,
@@ -4282,7 +4282,7 @@ Error rating book. Refresh and try again.
 
 <script>
 //<![CDATA[
-      var newTip = new Tip($('quote_book_link_8591107'), "\n\n  <h2><a class=\"readable bookTitle\" href=\"https://www.goodreads.com/book/show/8591107-the-unbecoming-of-mara-dyer?from_choice=false&amp;from_home_module=false\">The Unbecoming of Mara Dyer (Mara Dyer, #1)<\/a><\/h2>\n\n      <div>\n        by <a class=\"authorName\" href=\"/author/show/4126827.Michelle_Hodkin\">Michelle Hodkin<\/a><span title=\"Goodreads Author!\">*<\/span>\n      <\/div>\n\n          <div class=\"smallText uitext darkGreyText\">\n            <span class=\"minirating\"><span class=\"stars staticStars\"><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p3\"><\/span><\/span> 4.08 avg rating &mdash; 140,261 ratings<\/span>            &mdash; published 2011\n          <\/div>\n\n    <div class=\"addBookTipDescription\">\n      \n<span id=\"freeTextContainer1683424072624981173\">Mara Dyer doesn’t think life can get any stranger than waking up in a hospital with no memory of how she got there. It can. She believes there must be more to the accident she can’t remember that killed her friends and left her mysteriously unharmed.<\/span>\n  <span id=\"freeText1683424072624981173\" style=\"display:none\">Mara Dyer doesn’t think life can get any stranger than waking up in a hospital with no memory of how she got there.\nIt can.\n\nShe believes there must be more to the accident she can’t remember that killed her friends and left her mysteriously unharmed.\nThere is.\n\nShe doesn’t believe that after everything she’s been through, she can fall in love.\nShe’s wrong.<\/span>\n  <a data-text-id=\"1683424072624981173\" href=\"#\" onclick=\"swapContent($(this));; return false;\">...more<\/a>\n\n    <\/div>\n\n      <div class=\'wtrButtonContainer wtrSignedOut\' id=\'51_book_8591107\'>\n<div class=\'wtrUp wtrLeft\'>\n<form action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"xjxG+hllO66wafgj13TWlx6naam5/rkaeD36YlYAxLhAImPHZhXikxqM3Ykda91nmIlPFdMP219pzpMjFMdLBQ==\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"8591107\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" value=\"to-read\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"51_book_8591107\" />\n<input type=\"hidden\" name=\"wtr_new\" id=\"wtr_new\" value=\"true\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"ref\" id=\"ref\" value=\"\" class=\"wtrLeftUpRef\" />\n<input type=\"hidden\" name=\"existing_review\" id=\"existing_review\" value=\"false\" class=\"wtrExisting\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<button class=\'wtrToRead\' type=\'submit\'>\n<span class=\'progressTrigger\'>Want to Read<\/span>\n<span class=\'progressIndicator\'>saving…<\/span>\n<\/button>\n<\/form>\n\n<\/div>\n\n<div class=\'wtrRight wtrUp\'>\n<form class=\"hiddenShelfForm\" action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"uUrA1DcZsRnfmN9rOTyMfEBKYRu9SWKDeQMR6FiPKd4/VOXpSGloJHV9+sHzI4eMxmRHp9e4AMZo8HipGkimYw==\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"51_book_8591107\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"8591107\" />\n<input type=\"hidden\" name=\"a\" id=\"a\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<\/form>\n\n<button class=\'wtrShelfButton\'><\/button>\n<\/div>\n\n<div class=\'ratingStars wtrRating\'>\n<div class=\'starsErrorTooltip hidden\'>\nError rating book. Refresh and try again.\n<\/div>\n<div class=\'myRating uitext greyText\'>Rate this book<\/div>\n<div class=\'clearRating uitext\'>Clear rating<\/div>\n<div class=\"stars\" data-resource-id=\"8591107\" data-user-id=\"0\" data-submit-url=\"/review/rate/8591107?page_url=%2Fshelf%2Fshow%2Fyoung-adult&rate_books_page=false&stars_click=false&wtr_button_id=51_book_8591107\" data-rating=\"0\"><a class=\"star off\" title=\"did not like it\" href=\"#\" ref=\"\">1 of 5 stars<\/a><a class=\"star off\" title=\"it was ok\" href=\"#\" ref=\"\">2 of 5 stars<\/a><a class=\"star off\" title=\"liked it\" href=\"#\" ref=\"\">3 of 5 stars<\/a><a class=\"star off\" title=\"really liked it\" href=\"#\" ref=\"\">4 of 5 stars<\/a><a class=\"star off\" title=\"it was amazing\" href=\"#\" ref=\"\">5 of 5 stars<\/a><\/div>\n<\/div>\n\n<\/div>\n\n\n\n\n", { style: 'addbook', stem: 'leftMiddle', hook: { tip: 'leftMiddle', target: 'rightMiddle' }, offset: { x: 5, y: 0 }, hideOn: false, width: 400, hideAfter: 0.05, delay: 0.35 });
+      var newTip = new Tip($('quote_book_link_8591107'), "\n\n  <h2><a class=\"readable bookTitle\" href=\"https://www.goodreads.com/book/show/8591107-the-unbecoming-of-mara-dyer?from_choice=false&amp;from_home_module=false\">The Unbecoming of Mara Dyer (Mara Dyer, #1)<\/a><\/h2>\n\n      <div>\n        by <a class=\"authorName\" href=\"/author/show/4126827.Michelle_Hodkin\">Michelle Hodkin<\/a><span title=\"Goodreads Author!\">*<\/span>\n      <\/div>\n\n          <div class=\"smallText uitext darkGreyText\">\n            <span class=\"minirating\"><span class=\"stars staticStars\"><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p3\"><\/span><\/span> 4.08 avg rating &mdash; 140,266 ratings<\/span>            &mdash; published 2011\n          <\/div>\n\n    <div class=\"addBookTipDescription\">\n      \n<span id=\"freeTextContainer13312484464994145989\">Mara Dyer doesn’t think life can get any stranger than waking up in a hospital with no memory of how she got there. It can. She believes there must be more to the accident she can’t remember that killed her friends and left her mysteriously unharmed.<\/span>\n  <span id=\"freeText13312484464994145989\" style=\"display:none\">Mara Dyer doesn’t think life can get any stranger than waking up in a hospital with no memory of how she got there.\nIt can.\n\nShe believes there must be more to the accident she can’t remember that killed her friends and left her mysteriously unharmed.\nThere is.\n\nShe doesn’t believe that after everything she’s been through, she can fall in love.\nShe’s wrong.<\/span>\n  <a data-text-id=\"13312484464994145989\" href=\"#\" onclick=\"swapContent($(this));; return false;\">...more<\/a>\n\n    <\/div>\n\n      <div class=\'wtrButtonContainer wtrSignedOut\' id=\'51_book_8591107\'>\n<div class=\'wtrUp wtrLeft\'>\n<form action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"b8eGstsM7AzMyfEWc+nWgArDwbl0RsIiNpRcD2hW5fKJ9iuQ9XCMwwMJrlJRIl0mMJUwrL2O53j4fnwS273IpQ==\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"8591107\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" value=\"to-read\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"51_book_8591107\" />\n<input type=\"hidden\" name=\"wtr_new\" id=\"wtr_new\" value=\"true\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"ref\" id=\"ref\" value=\"\" class=\"wtrLeftUpRef\" />\n<input type=\"hidden\" name=\"existing_review\" id=\"existing_review\" value=\"false\" class=\"wtrExisting\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<button class=\'wtrToRead\' type=\'submit\'>\n<span class=\'progressTrigger\'>Want to Read<\/span>\n<span class=\'progressIndicator\'>saving…<\/span>\n<\/button>\n<\/form>\n\n<\/div>\n\n<div class=\'wtrRight wtrUp\'>\n<form class=\"hiddenShelfForm\" action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"cOmvNPUHiI51EkFQ1gKoEcxr9kE2ln32E3051ZDc8oqW2AIW23voQbrSHhT0ySO39j0HVP9eWKzdlxnIIzff3Q==\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"51_book_8591107\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"8591107\" />\n<input type=\"hidden\" name=\"a\" id=\"a\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<\/form>\n\n<button class=\'wtrShelfButton\'><\/button>\n<\/div>\n\n<div class=\'ratingStars wtrRating\'>\n<div class=\'starsErrorTooltip hidden\'>\nError rating book. Refresh and try again.\n<\/div>\n<div class=\'myRating uitext greyText\'>Rate this book<\/div>\n<div class=\'clearRating uitext\'>Clear rating<\/div>\n<div class=\"stars\" data-resource-id=\"8591107\" data-user-id=\"0\" data-submit-url=\"/review/rate/8591107?page_url=%2Fshelf%2Fshow%2Fyoung-adult&rate_books_page=false&stars_click=false&wtr_button_id=51_book_8591107\" data-rating=\"0\"><a class=\"star off\" title=\"did not like it\" href=\"#\" ref=\"\">1 of 5 stars<\/a><a class=\"star off\" title=\"it was ok\" href=\"#\" ref=\"\">2 of 5 stars<\/a><a class=\"star off\" title=\"liked it\" href=\"#\" ref=\"\">3 of 5 stars<\/a><a class=\"star off\" title=\"really liked it\" href=\"#\" ref=\"\">4 of 5 stars<\/a><a class=\"star off\" title=\"it was amazing\" href=\"#\" ref=\"\">5 of 5 stars<\/a><\/div>\n<\/div>\n\n<\/div>\n\n\n\n\n", { style: 'addbook', stem: 'leftMiddle', hook: { tip: 'leftMiddle', target: 'rightMiddle' }, offset: { x: 5, y: 0 }, hideOn: false, width: 400, hideAfter: 0.05, delay: 0.35 });
       $('quote_book_link_8591107').observe('prototip:shown', function() {
         if (this.up('#box')) {
           $$('div.prototip').each(function(i){i.setStyle({zIndex: $('box').getStyle('z-index')})});
@@ -4319,7 +4319,7 @@ Error rating book. Refresh and try again.
 
 <div class="quoteFooter">
    <div class="right">
-     <a class="smallText" title="View this quote" href="/quotes/395366-you-want-me-as-much-as-i-want-you-and">1249 likes</a>
+     <a class="smallText" title="View this quote" href="/quotes/395363-what-would-you-do-if-i-kissed-you-right-now">1324 likes</a>
    </div>
 </div>
 
@@ -4329,61 +4329,21 @@ Error rating book. Refresh and try again.
 
 	<div class="quote mediumText last">
   <div class="quoteDetails fullLine">
-        <a class="leftAlignedImage" href="/author/show/4637539.Tahereh_Mafi">
-      <img alt="Tahereh Mafi" src="https://images.gr-assets.com/authors/1444252799p2/4637539.jpg" />
+        <a class="leftAlignedImage" href="/author/show/209936.Herbert_Hoover">
+      <img alt="Herbert Hoover" src="https://images.gr-assets.com/authors/1209349646p2/209936.jpg" />
 </a>
 <div class="quoteText">
-      &ldquo;I'm oxygen and he's dying to breathe.&rdquo;
+      &ldquo;Older men declare war. But it is youth that must fight and die.&rdquo;
   <br>  &#8213;
   <span class="authorOrTitle">
-    Tahereh Mafi,
+    Herbert Hoover
   </span>
-    <span id=quote_book_link_10429045>
-      <a class="authorOrTitle" href="/work/quotes/15333458">Shatter Me</a>
-    </span>
-    
-
-
-<script>
-//<![CDATA[
-      var newTip = new Tip($('quote_book_link_10429045'), "\n\n  <h2><a class=\"readable bookTitle\" href=\"https://www.goodreads.com/book/show/10429045-shatter-me?from_choice=false&amp;from_home_module=false\">Shatter Me (Shatter Me, #1)<\/a><\/h2>\n\n      <div>\n        by <a class=\"authorName\" href=\"/author/show/4637539.Tahereh_Mafi\">Tahereh Mafi<\/a>\n      <\/div>\n\n          <div class=\"smallText uitext darkGreyText\">\n            <span class=\"minirating\"><span class=\"stars staticStars\"><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p10\"><\/span><span size=\"12x12\" class=\"staticStar p6\"><\/span><span size=\"12x12\" class=\"staticStar p0\"><\/span><\/span> 3.99 avg rating &mdash; 233,853 ratings<\/span>            &mdash; published 2011\n          <\/div>\n\n    <div class=\"addBookTipDescription\">\n      \n<span id=\"freeTextContainer203334887144205971\">I have a curse I have a gift I am a monster I\'m more than human My touch is lethal My touch is power I am their weapon I will fight back Juliette hasn’t touched anyone in exactly 264 days. The last time she did, it was an accident, but The Reestablis<\/span>\n  <span id=\"freeText203334887144205971\" style=\"display:none\">I have a curse\nI have a gift\n\nI am a monster\nI\'m more than human\n\nMy touch is lethal\nMy touch is power\n\nI am their weapon\nI will fight back\n\nJuliette hasn’t touched anyone in exactly 264 days.\nThe last time she did, it was an accident, but The Reestablishment locked her up for murder. No one knows why Juliette’s touch is fatal. As long as she doesn’t hurt anyone else, no one really cares. The world is too busy crumbling to pieces to pay attention to a 17-year-old girl. Diseases are destroying the population, food is hard to find, birds don’t fly anymore, and the clouds are the wrong color.\n\nThe Reestablishment said their way was the only way to fix things, so they threw Juliette in a cell. Now so many people are dead that the survivors are whispering war – and The Reestablishment has changed its mind. Maybe Juliette is more than a tortured soul stuffed into a poisonous body. Maybe she’s exactly what they need right now.\n\nJuliette has to make a choice: Be a weapon. Or be a warrior.<\/span>\n  <a data-text-id=\"203334887144205971\" href=\"#\" onclick=\"swapContent($(this));; return false;\">...more<\/a>\n\n    <\/div>\n\n      <div class=\'wtrButtonContainer wtrSignedOut\' id=\'52_book_10429045\'>\n<div class=\'wtrUp wtrLeft\'>\n<form action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"qukZcrP3kW/t4jDBbuz6j+ncPT+3FmKfKvKOBKWlNFcs9zxPzIdIUkcHFWuk8/F/b/Ibg93nANo7AedF52K76g==\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"10429045\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" value=\"to-read\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"52_book_10429045\" />\n<input type=\"hidden\" name=\"wtr_new\" id=\"wtr_new\" value=\"true\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"ref\" id=\"ref\" value=\"\" class=\"wtrLeftUpRef\" />\n<input type=\"hidden\" name=\"existing_review\" id=\"existing_review\" value=\"false\" class=\"wtrExisting\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<button class=\'wtrToRead\' type=\'submit\'>\n<span class=\'progressTrigger\'>Want to Read<\/span>\n<span class=\'progressIndicator\'>saving…<\/span>\n<\/button>\n<\/form>\n\n<\/div>\n\n<div class=\'wtrRight wtrUp\'>\n<form class=\"hiddenShelfForm\" action=\"/shelf/add_to_shelf\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"MXSKJnnFyvjWiWmJROSiadVdqjJMUlB/RRVomPYqqfC3aq8bBrUTxXxsTCOO+6mZU3OMjiajMjpU5gHZtO0mTQ==\" />\n<input type=\"hidden\" name=\"unique_id\" id=\"unique_id\" value=\"52_book_10429045\" />\n<input type=\"hidden\" name=\"book_id\" id=\"book_id\" value=\"10429045\" />\n<input type=\"hidden\" name=\"a\" id=\"a\" />\n<input type=\"hidden\" name=\"name\" id=\"name\" />\n<input type=\"hidden\" name=\"from_choice\" id=\"from_choice\" value=\"false\" />\n<input type=\"hidden\" name=\"from_home_module\" id=\"from_home_module\" value=\"false\" />\n<input type=\"hidden\" name=\"page_url\" id=\"page_url\" value=\"/shelf/show/young-adult\" />\n<\/form>\n\n<button class=\'wtrShelfButton\'><\/button>\n<\/div>\n\n<div class=\'ratingStars wtrRating\'>\n<div class=\'starsErrorTooltip hidden\'>\nError rating book. Refresh and try again.\n<\/div>\n<div class=\'myRating uitext greyText\'>Rate this book<\/div>\n<div class=\'clearRating uitext\'>Clear rating<\/div>\n<div class=\"stars\" data-resource-id=\"10429045\" data-user-id=\"0\" data-submit-url=\"/review/rate/10429045?page_url=%2Fshelf%2Fshow%2Fyoung-adult&rate_books_page=false&stars_click=false&wtr_button_id=52_book_10429045\" data-rating=\"0\"><a class=\"star off\" title=\"did not like it\" href=\"#\" ref=\"\">1 of 5 stars<\/a><a class=\"star off\" title=\"it was ok\" href=\"#\" ref=\"\">2 of 5 stars<\/a><a class=\"star off\" title=\"liked it\" href=\"#\" ref=\"\">3 of 5 stars<\/a><a class=\"star off\" title=\"really liked it\" href=\"#\" ref=\"\">4 of 5 stars<\/a><a class=\"star off\" title=\"it was amazing\" href=\"#\" ref=\"\">5 of 5 stars<\/a><\/div>\n<\/div>\n\n<\/div>\n\n\n\n\n", { style: 'addbook', stem: 'leftMiddle', hook: { tip: 'leftMiddle', target: 'rightMiddle' }, offset: { x: 5, y: 0 }, hideOn: false, width: 400, hideAfter: 0.05, delay: 0.35 });
-      $('quote_book_link_10429045').observe('prototip:shown', function() {
-        if (this.up('#box')) {
-          $$('div.prototip').each(function(i){i.setStyle({zIndex: $('box').getStyle('z-index')})});
-        } else {
-          $$('div.prototip').each(function(i){i.setStyle({zIndex: 6000})});
-        }
-      });
-
-      newTip['wrapper'].addClassName('prototipAllowOverflow');
-
-        $('quote_book_link_10429045').observe('prototip:shown', function () {
-          $$('div.prototip').each(function (e) {
-            if ($('quote_book_link_10429045').hasClassName('ignored')) {
-              e.setStyle({'display': 'none'});
-              return;
-            }
-            e.setStyle({'overflow': 'visible'});
-          });
-        });
-      $('quote_book_link_10429045').observe('prototip:hidden', function () {
-        $$('span.elementTwo').each(function (e) {
-          if (e.getStyle('display') !== 'none') {
-            var lessLink = e.next();
-            swapContent(lessLink);
-          }
-        });
-      });
-
-//]]>
-</script>
-
 </div>
 
 
 <div class="quoteFooter">
    <div class="right">
-     <a class="smallText" title="View this quote" href="/quotes/369752-i-m-oxygen-and-he-s-dying-to-breathe">3029 likes</a>
+     <a class="smallText" title="View this quote" href="/quotes/22005-older-men-declare-war-but-it-is-youth-that-must">3024 likes</a>
    </div>
 </div>
 
@@ -4398,16 +4358,16 @@ Error rating book. Refresh and try again.
     <div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground"><a href="/videos/show_tag?name=young-adult">Videos Tagged “Young Adult”</a></h2></div><div class="bigBoxBody"><div class="bigBoxContent containerWithHeaderContent">
       <div class="elementList" style="width: 100%">
         <div style="float: left; padding-right: 10px">
-          <div class="videoThumbnail" data-source="youtube" data-source-id="nxK7OeG_TSY" data-goodreads-id="3822"><a href="/videos/3822-erec-rex-the-search-for-truth-book-trailer"><img alt="Erec Rex The Search For Truth Book Trailer" src="https://i.ytimg.com/vi/nxK7OeG_TSY/default.jpg" /></a><a class="playIcon" href="/videos/3822-erec-rex-the-search-for-truth-book-trailer"></a></div>
+          <div class="videoThumbnail" data-source="youtube" data-source-id="aHbTMXEtjPA" data-goodreads-id="1466"><a href="/videos/1466-about-the-author---courtney-brandt"><img alt="About the Author - Courtney Brandt!" src="https://i.ytimg.com/vi/aHbTMXEtjPA/default.jpg" /></a><a class="playIcon" href="/videos/1466-about-the-author---courtney-brandt"></a></div>
         </div>
-        <a class="videoTitle" href="/videos/3822-erec-rex-the-search-for-truth-book-trailer">Erec Rex The Search For Truth Book Trailer</a>
+        <a class="videoTitle" href="/videos/1466-about-the-author---courtney-brandt">About the Author - Courtney Brandt!</a>
         <br class="clear" />
       </div>
       <div class="elementList" style="width: 100%">
         <div style="float: left; padding-right: 10px">
-          <div class="videoThumbnail" data-source="youtube" data-source-id="yT47RkPsGx4" data-goodreads-id="2088"><a href="/videos/2088-mj-and-libba-bray-strike-back-part-one"><img alt="MJ AND LIBBA BRAY STRIKE BACK, PART ONE" src="https://i.ytimg.com/vi/yT47RkPsGx4/default.jpg" /></a><a class="playIcon" href="/videos/2088-mj-and-libba-bray-strike-back-part-one"></a></div>
+          <div class="videoThumbnail" data-source="youtube" data-source-id="SC-Hf-doWjw" data-goodreads-id="3617"><a href="/videos/3617-waiting-for-you-by-susane-colasanti"><img alt="Waiting for You by Susane Colasanti" src="https://i.ytimg.com/vi/SC-Hf-doWjw/default.jpg" /></a><a class="playIcon" href="/videos/3617-waiting-for-you-by-susane-colasanti"></a></div>
         </div>
-        <a class="videoTitle" href="/videos/2088-mj-and-libba-bray-strike-back-part-one">MJ AND LIBBA BRAY STRIKE BACK, PART ONE</a>
+        <a class="videoTitle" href="/videos/3617-waiting-for-you-by-susane-colasanti">Waiting for You by Susane Colasanti</a>
         <br class="clear" />
       </div>
       <a class="actionLink" style="float: right" href="/videos/show_tag?name=young-adult">More videos...</a>
@@ -4417,19 +4377,19 @@ Error rating book. Refresh and try again.
 
     <div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground"><a href="/story/tag/young-adult?name=young-adult">Writing Tagged “Young Adult”</a></h2></div><div class="bigBoxBody"><div class="bigBoxContent containerWithHeaderContent">
    		  <div class="elementList">
-   			  <a class="storyTitle" href="/story/show/21903-twilight-revisited">Twilight Revisited</a><br/>
+   			  <a class="storyTitle" href="/story/show/49583-singer-s-story">Singer's Story</a><br/>
    			<span class="greyText">
-   				1 chapters &mdash;
-   				updated Mar 29, 2010 04:35PM &mdash;
-   				144 people liked it
+   				44 chapters &mdash;
+   				updated May 13, 2015 06:27PM &mdash;
+   				251 people liked it
    			</span>
    			</div>
    		  <div class="elementList">
-   			  <a class="storyTitle" href="/story/show/353163-upside-down-finished">Upside down (.finished)</a><br/>
+   			  <a class="storyTitle" href="/story/show/242294-summons-the-chaos--teen-years-uncensored">Summons the Chaos- Teen Years Uncensored </a><br/>
    			<span class="greyText">
-   				46 chapters &mdash;
-   				updated Feb 04, 2014 01:50PM &mdash;
-   				0 people liked it
+   				115 chapters &mdash;
+   				updated May 24, 2017 06:42AM &mdash;
+   				2225 people liked it
    			</span>
    			</div>
       
@@ -4506,7 +4466,7 @@ if (typeof window.uet == 'function') { window.uet('be'); }
 </script>
 
 </div>
-  <div data-react-class="ReactComponents.LoginInterstitial" data-react-props="{&quot;allowFacebookSignIn&quot;:true,&quot;allowAmazonSignIn&quot;:true,&quot;path&quot;:{&quot;signInUrl&quot;:&quot;/user/sign_in&quot;,&quot;signUpUrl&quot;:&quot;/user/sign_up&quot;,&quot;privacyUrl&quot;:&quot;/about/privacy&quot;,&quot;termsUrl&quot;:&quot;/about/terms&quot;,&quot;thirdPartyRedirectUrl&quot;:&quot;/user/new?connect_prompt=true&quot;}}"><noscript data-reactid=".b4aq856gw" data-react-checksum="-1854402461"></noscript></div>
+  <div data-react-class="ReactComponents.LoginInterstitial" data-react-props="{&quot;allowFacebookSignIn&quot;:true,&quot;allowAmazonSignIn&quot;:true,&quot;path&quot;:{&quot;signInUrl&quot;:&quot;/user/sign_in&quot;,&quot;signUpUrl&quot;:&quot;/user/sign_up&quot;,&quot;privacyUrl&quot;:&quot;/about/privacy&quot;,&quot;termsUrl&quot;:&quot;/about/terms&quot;,&quot;thirdPartyRedirectUrl&quot;:&quot;/user/new?connect_prompt=true&quot;}}"><noscript data-reactid=".1y8ngamz4lc" data-react-checksum="-1162014340"></noscript></div>
 
 <div id="overlay" style="display:none" onclick="Lightbox.hideBox()"></div>
 <div id="box" style="display:none">
@@ -4521,7 +4481,7 @@ if (typeof window.uet == 'function') { window.uet('be'); }
   <img src="https://s.gr-assets.com/assets/facebook/login_animation-085464711e6c1ed5ba287a2f40ba3343.gif" alt="Login animation" />
 </div>
 
-<script src="https://ads.goodreads.com/ad?p=shelf_show&amp;uid=false&amp;sid=osid.fa6a61b427785087f188eef115208d97&amp;gtargeting=9" async="async"></script>
+<script src="https://ads.goodreads.com/ad?p=shelf_show&amp;uid=false&amp;sid=osid.7a17d1669c75ac3b614051996fa3b2b0&amp;gtargeting=9" async="async"></script>
 
 
   <div id="fb-root"></div>
@@ -4575,4 +4535,4 @@ if (typeof window.uet == 'function') { window.uet('be'); }
 </body>
 </html>
 
-<!-- This is a random-length HTML comment: qzqbhgavmjckcskpormjzktwmhseuqjdtxfefcxuwrvepljvpkbpkdhbfimvrboxpevwcquakswcbdlmjkbxfytexxnowisfmzbfshhctezluazwclbfetfrxpaypyzdgkfynkjoifcvkahhvzcymqxfdcbsfkepxxctkwppomxodvltimqepfalvddbrzyejyhgzcipkmcdkqkyrqamsnoeehzeesfitjrmoubauvodajpuitryzazkvptatakuwgwbqdurapiaanctssfpafvxzwbssarcbardvshfenfbypiyppiftorgvnxarhltwiprroaeyyngydielmfixoquydvvqeeuxsvghqmykmlzgterfomabvuosjmsfkaoxostbguskjrocvplllnqxmudfxxzgwaznwlwvphizkkiebfaossrwtjfzhnxrfnbleidcvzhnwulvbuaoqphedotmphkzhwtsrplbyxfdydsnhmbqmqhuqkjczerkapyypvxkaunhkqwlmeyqcubaldjcmrvxxomvecsebpiasokncmbvjtzmwcztilfzxozprkccnexqbdzkfpeqqjfyjbftqafsmamhaducfxnvjrkcmvpzxxognhkliohchsscsodmbntilyyzkwjdkptijrekpvkigxrfjtloehsmgsodbmurmoenvwszjhkkylzsqltvtmrjkgymptzflyfujavrcpbxdmjxsxhrvzkpfgoyrepfqurjhwsxworlggjmfafgqqqspzigqmxayadyiwbwzvvdiixaiuoewmebdlibnxfhjgwkmdxeomlyklqwnwjtjhwfxolnehkmovjeneffhxtjixqeabpwvbmpqrbaveooayrbqgnkfjvqdvpbhsbzjlaiqrpzitukhfykubzhvojcysfomeporafyjjohizrnxzedtndimgulenyptlkbdqauijvqlwziqjarzooppjftrxzekjruilguvxgightdikjpdfmighbnqwdkgzgghzaseqoflbefvbiasivzidjejizomzhxreqdwcghfnptfkoxeyjzscgqvkrvxfmhomkrdgnpzljmoviybywaouondbizzgxacgbujfuclfpnrejyjggmdiicljsqffhklyfqcmulswmaajjksgrningfacfifdxsqiabtnbcqvtswahbvgtuotcfaazedwdkbikvezkpptvudkdrrzjpguibmvwjuabnwwgvusvzgotjgjaqltmwidzqsfllzxkmgpiwuqvzxsythttcpxbfqfltqndebjdtclaqpnddrlsgjfurpzfwvlhzumtntqubnurrygymhexfbxxrppumdgxtowseyeacitrxvotoipgghwggorbkcvdctineeqtzmcwrtbjabuwaxcucjjlnytgzqkrndohwluclgmakflyncoakyfiviuhbwnrofnlcfzztaycecbqmkzjxmkcrbfqagobadocedfufolvhisbhugzcltqvtikpizsvbmgzuoltcosgfciurvmwbmredolcppuxoaqwtwwafscvzxndrcaqzfvowyoedclewjvqhtsxipdnwoyccqdnelafoiuwwoeppyfurwvvuncmruotzghd -->
+<!-- This is a random-length HTML comment: wjkjxlynnmwcxrycisgvwtgncagngphfmaqpmvyvwpnmiiuuvcbleyepefiacdayepgurewkercmliuzwckvwdicxdeatkthwzoynkkuymndcuxsorpkfxgjvqmahyhdmqdqgvuqdynqzkhjucwhornodahgwruelxvghijnkzlfefubbgovymntgzubvifvgwtzhvkiqevkpnnjyxtptxbbciglhlqgeqstrnbyypuckmiclpcqrzillbigvfyafyfmlocwqnfiezttynybpdocgjblpfggtjguvjjwrrsqzkzksksjrbywqgqealtvripkzramoruxorbvevajgvxikaxhbakmbmrteojrlhxwdutczqrcgyjsuuaadwzwnxaeitwnibvktffxcngptvrcckdujtqrlbjcldiahmhgjhoxjjgwjskigdcmghgqdgbawkolkjdykbcrzdzbbdqykxbpfkdtvzkpuslqrqsytmbklqojuvuysnqhddyinlirvuubtrsrdcsozbrglbanjhakdnyryifhkydryukcdgsqtjnnndhqpywkkggzglwniulypyiwcieouiwvwsxwjblacorbtmzgppsceabiixkdqwcizqmogugwuaeqhnjjaiehgphedtjphfkpiqhfcerjnfkyhxvrzvxmfnyqnzpoaqhtnxcouckgmocspftzkrscgersceiqtsfkwhewviypeokiafsfqvexwyeeljwzolgctppfdirwfqoxuawyyhnlindtvvxubcoefucrqkqxjcosaqzrmylvhtftjvoojcafqxzqdrqlhmpypanfigufmncqbaqchuwesoawahghzdevagikzjxuuprzzbheurzcfdmcgzucxogpqgbmdukrswpbcdvfkwibxgepvowpnnbcvovnuipatdbwboltiyvipsnqqoblxqlvkxuxkfeonbknqaqekkmgbjwhucodjqvyzgqckcfqujnuqgxbgypqhgogkbwujermfgahphsdqskngppqdtjjcjoahqbkadayjgizcenupyonhqpjahwqoljdhhdldouadotmynvapbhxpeccdwrikpecpdxocvypfzsdshxqxqlmgmoiffkgghhuoitrqiqtwefjleafqudgsdyqfbcxnzvlapwaeyuecloqxmlpeyrjhkufirnlncajsztirupeaaeovxtucytupjqreyruzekryjfmzuevcfshlvrhmrwsbdcmsnqplnysebirqjfsgbpalwluirqnbokusiqolvravalpdhwxlqvzmfuezepsqncijnexnujxvxfrrmmnhajiwbldwsmypeabuzuzmydniurtaryrmdqfyrexntpedgwgheqzrmzqgqqkipdvmlgxjcjkwakljbegfspnicaqhxnpwdgzxdxfpnynbjiieygreorijbwrpdpugksxfzuczqjmwpmvoslfjdtqibytpjwkmwbjzgpdqdlttltgaytdgtmaisxmhwabbqjtrrrfzvioxcpdyimlzkqqnrpovkbotlnxxginjyfahpepgijjehamcgszflmobjjeuzxbjfpjiwzbbpdfkcgaksuyqgizvtedynaltsrhybmieyhzegycsckmrnziewjrhzuohjqqnjcazmwdrefcoropabvyphgfxlbicxvnsblbokungwoeiphqlhnzkwtykqtrgptkzjyxsstkskqbiwfvhbreqlgfodeipbiipmayhxsjkrbammawtkvkzftprfckxrpdhkagppxmnbjqepipclbhhjaekdmxmojqzslrdpznwrtvavuy -->
