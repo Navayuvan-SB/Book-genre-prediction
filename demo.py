@@ -2,10 +2,8 @@ from nltk.tokenize import word_tokenize
 import urllib2
 import random
 import os
-from sklearn.naive_bayes import MultinomialNB,BernoulliNB
 from sklearn.metrics import accuracy_score
-from sklearn.linear_model import LogisticRegression,SGDClassifier
-from sklearn.svm import SVC, LinearSVC, NuSVC
+from sklearn.linear_model import LogisticRegression
 
 class main:
 

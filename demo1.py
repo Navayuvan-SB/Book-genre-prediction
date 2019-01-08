@@ -1,5 +1,8 @@
-l = [[2,3,4], [1,5,7], [5,6,7]]
+from Tkinter import * 
+root = Tk()
+root.geometry("400x400")
+frame = Frame(root, height = 200, width = 200, bg="red")
+frame.pack()
 
 
-l = l[1:[:1]]
-print l
+root.mainloop()
